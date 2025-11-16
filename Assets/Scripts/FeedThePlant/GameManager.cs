@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     [Header("UI References")]
     public TMP_Text scoreText;
     public TMP_Text livesText;
-    public TMP_Text timerText;
 
     [Header("Panels")]
     public GameObject gameOverPanel;
@@ -18,11 +17,10 @@ public class GameManager : MonoBehaviour
     public TMP_Text victoryScoreText;
 
     [Header("Game Settings")]
-    public float levelDuration = 30f;   // seconds
-    public int maxLives = 3;            // used for minigames like rhythm game
+    public int maxLives = 3;           
+    public int requiredScore = 20;      // WIN CONDITION
 
     private int _score = 0;
-    private float _timer;
     private int _lives;
     private bool _isGameOver = false;
     private bool _isVictory = false;
@@ -41,13 +39,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Time.timeScale = 1f; // ensure normal speed when reloading
-        _timer = levelDuration;
+        Time.timeScale = 1f;
         _lives = maxLives;
 
         UpdateScoreText();
         UpdateLives(_lives);
-        UpdateTimerText();
 
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (victoryPanel != null) victoryPanel.SetActive(false);
@@ -55,17 +51,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        // No timer anymore
         if (_isGameOver || _isVictory) return;
-
-        // countdown
-        _timer -= Time.deltaTime;
-        UpdateTimerText();
-
-        if (_timer <= 0f)
-        {
-            _timer = 0f;
-            Victory();
-        }
     }
 
     // ---------- GAME FLOW ----------
@@ -73,8 +60,14 @@ public class GameManager : MonoBehaviour
     public void AddScore(int amount)
     {
         if (_isGameOver || _isVictory) return;
+
         _score += amount;
         UpdateScoreText();
+
+        if (_score >= requiredScore)
+        {
+            Victory();
+        }
     }
 
     public void UpdateLives(int newLives)
@@ -151,7 +144,7 @@ public class GameManager : MonoBehaviour
         if (nextIndex < SceneManager.sceneCountInBuildSettings)
             SceneManager.LoadScene(nextIndex);
         else
-            SceneManager.LoadScene("MainMenu"); // fallback if last scene
+            SceneManager.LoadScene("MainMenu");
     }
 
     // ---------- PRIVATE HELPERS ----------
@@ -159,24 +152,17 @@ public class GameManager : MonoBehaviour
     private void UpdateScoreText()
     {
         if (scoreText != null)
-            scoreText.text = "O2 Collected: " + _score;
-    }
-
-    private void UpdateTimerText()
-    {
-        if (timerText != null)
-            timerText.text = "Time: " + Mathf.CeilToInt(_timer);
+            scoreText.text = "O2: " + _score + "/" + requiredScore;
     }
 
     private void SaveScore()
     {
-        // Store current level's score
         PlayerPrefs.SetInt("LastLevelScore", _score);
 
-        // Accumulate total score across all levels
         int total = PlayerPrefs.GetInt("TotalScore", 0);
         total += _score;
         PlayerPrefs.SetInt("TotalScore", total);
+
         PlayerPrefs.Save();
     }
 }
