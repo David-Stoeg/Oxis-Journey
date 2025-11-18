@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,12 @@ public class GameManager : MonoBehaviour
     [Header("UI References")]
     public TMP_Text scoreText;
     public TMP_Text livesText;
+    public Image scoreFill; // UI Image mit Fill (Type = Filled)
+
+    [Header("Lives UI")]
+    public Image[] lifeImages;           // Reihenfolge: links -> rechts (oder wie im UI angeordnet)
+    public Sprite lifeFullSprite;       // Sprite für ein vorhandenes Leben
+    public Sprite lifeEmptySprite;      // Sprite für ein verlorenes Leben
 
     [Header("Panels")]
     public GameObject gameOverPanel;
@@ -72,9 +79,52 @@ public class GameManager : MonoBehaviour
 
     public void UpdateLives(int newLives)
     {
+        // Clamp zu 0 .. Anzahl der lifeImages (falls vorhanden) oder maxLives
+        int maxDisplay = (lifeImages != null && lifeImages.Length > 0) ? lifeImages.Length : maxLives;
+        newLives = Mathf.Clamp(newLives, 0, maxDisplay);
         if (livesText != null)
             livesText.text = "Lives: " + newLives;
-    }
+
+
+        if (lifeImages != null && lifeImages.Length > 0)
+        {
+            for (int i = 0; i < lifeImages.Length; i++)
+            {
+                var img = lifeImages[i];
+                if (img == null) continue;
+
+                if (i < newLives)
+                {
+                    // Leben vorhanden
+                    if (lifeFullSprite != null)
+                    {
+                        img.sprite = lifeFullSprite;
+                        img.enabled = true;
+                    }
+                    else
+                    {
+                        img.enabled = true; // falls Sprite nicht gesetzt: sichtbar lassen
+                    }
+                }
+                else
+                {
+                    // Leben verloren
+                    if (lifeEmptySprite != null)
+                    {
+                        img.sprite = lifeEmptySprite;
+                        img.enabled = true;
+                    }
+                    else
+                    {
+                        // kein Empty-Sprite: Bild ausblenden
+                        img.enabled = false;
+                    }
+                }
+            }
+        }
+            // interne Variable aktualisieren
+            _lives = newLives;
+       }
 
     public int InstanceMiss()
     {
@@ -152,7 +202,15 @@ public class GameManager : MonoBehaviour
     private void UpdateScoreText()
     {
         if (scoreText != null)
-            scoreText.text = "O2: " + _score + "/" + requiredScore;
+            //scoreText.text = "O2: " + _score + "/" + requiredScore;
+            scoreText.text = _score + "/" + requiredScore; //mit neuer ScoreBar
+
+        if (scoreFill != null)
+        {
+            // Schütze vor Division durch 0
+            float denom = Mathf.Max(1, requiredScore);
+            scoreFill.fillAmount = Mathf.Clamp01((float)_score / denom);
+        }
     }
 
     private void SaveScore()

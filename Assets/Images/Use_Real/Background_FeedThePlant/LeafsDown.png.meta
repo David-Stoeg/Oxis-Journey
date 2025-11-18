@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: ba2fd0c19d4f0c14b822624582e94031
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1373839504964221701
+    second: LeafsDown_0
+  - first:
+      213: -3751365194637084007
+    second: LeafsDown_1
+  - first:
+      213: -8996715729116155112
+    second: LeafsDown_2
+  - first:
+      213: 3529016372080377344
+    second: LeafsDown_3
+  - first:
+      213: 3618419996947554691
+    second: LeafsDown_4
+  - first:
+      213: 7841734597894619030
+    second: LeafsDown_5
+  - first:
+      213: -6820687886115145178
+    second: LeafsDown_6
+  - first:
+      213: -4896538964640095642
+    second: LeafsDown_7
+  - first:
+      213: 462542431278364175
+    second: LeafsDown_8
+  - first:
+      213: 2595356675214089499
+    second: LeafsDown_9
+  - first:
+      213: -6537904129398978319
+    second: LeafsDown_10
+  - first:
+      213: 6176644698545696000
+    second: LeafsDown_11
+  - first:
+      213: 9084131055793446155
+    second: LeafsDown_12
+  - first:
+      213: -5312447574941121055
+    second: LeafsDown_13
+  - first:
+      213: 871537980393140670
+    second: LeafsDown_14
+  - first:
+      213: 4791022360996782519
+    second: LeafsDown_15
+  - first:
+      213: -6215200007885029062
+    second: LeafsDown_16
+  - first:
+      213: -3103765654557792207
+    second: LeafsDown_17
+  - first:
+      213: 722286860866892290
+    second: LeafsDown_18
+  - first:
+      213: 8260721702835738115
+    second: LeafsDown_19
+  - first:
+      213: -6625372368157602651
+    second: LeafsDown_20
+  - first:
+      213: -810566677486705288
+    second: LeafsDown_21
+  - first:
+      213: -990891381788820045
+    second: LeafsDown_22
+  - first:
+      213: 1207974336417132325
+    second: LeafsDown_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeafsDown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1132
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf48538cf342fece0800000000000000
+      internalID: -1373839504964221701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 241
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a74e62b3970fbc0800000000000000
+      internalID: -3751365194637084007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 245
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813bcd406be352380800000000000000
+      internalID: -8996715729116155112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 238
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e736061b599f030800000000000000
+      internalID: 3529016372080377344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 239
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381aa36e0d5373230800000000000000
+      internalID: 3618419996947554691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 232
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f366ac11073dc60800000000000000
+      internalID: 7841734597894619030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_6
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 229
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62afb40518c0851a0800000000000000
+      internalID: -6820687886115145178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_7
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 228
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662a4cf21cffb0cb0800000000000000
+      internalID: -4896538964640095642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_8
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 204
+        width: 17
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0674edf3e74b6600800000000000000
+      internalID: 462542431278364175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_9
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 212
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d1393352f840420800000000000000
+      internalID: 2595356675214089499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_10
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 209
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f84d9765d2b445a0800000000000000
+      internalID: -6537904129398978319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_11
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 202
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dad98c0a9d7b550800000000000000
+      internalID: 6176644698545696000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d99a1c011511e70800000000000000
+      internalID: 9084131055793446155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 120
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5cfbfb3156646b0800000000000000
+      internalID: -5312447574941121055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 128
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb13891fc23581c00800000000000000
+      internalID: 871537980393140670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 126
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1aa2214712d7240800000000000000
+      internalID: 4791022360996782519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31020ab58c2fb9a0800000000000000
+      internalID: -6215200007885029062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1386606e4953de4d0800000000000000
+      internalID: -3103765654557792207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20237e7b214160a00800000000000000
+      internalID: 722286860866892290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30652ed1f9af3a270800000000000000
+      internalID: 8260721702835738115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_20
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 11
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac07431fe2fd04a0800000000000000
+      internalID: -6625372368157602651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_21
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 10
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875e2a1c6e940c4f0800000000000000
+      internalID: -810566677486705288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_22
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 8
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd3b79c985af32f0800000000000000
+      internalID: -990891381788820045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeafsDown_23
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 0
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f6ee3424693c010800000000000000
+      internalID: 1207974336417132325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0a99476c64913f42b243179e943e281
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LeafsDown_0: -1373839504964221701
+      LeafsDown_1: -3751365194637084007
+      LeafsDown_10: -6537904129398978319
+      LeafsDown_11: 6176644698545696000
+      LeafsDown_12: 9084131055793446155
+      LeafsDown_13: -5312447574941121055
+      LeafsDown_14: 871537980393140670
+      LeafsDown_15: 4791022360996782519
+      LeafsDown_16: -6215200007885029062
+      LeafsDown_17: -3103765654557792207
+      LeafsDown_18: 722286860866892290
+      LeafsDown_19: 8260721702835738115
+      LeafsDown_2: -8996715729116155112
+      LeafsDown_20: -6625372368157602651
+      LeafsDown_21: -810566677486705288
+      LeafsDown_22: -990891381788820045
+      LeafsDown_23: 1207974336417132325
+      LeafsDown_3: 3529016372080377344
+      LeafsDown_4: 3618419996947554691
+      LeafsDown_5: 7841734597894619030
+      LeafsDown_6: -6820687886115145178
+      LeafsDown_7: -4896538964640095642
+      LeafsDown_8: 462542431278364175
+      LeafsDown_9: 2595356675214089499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
