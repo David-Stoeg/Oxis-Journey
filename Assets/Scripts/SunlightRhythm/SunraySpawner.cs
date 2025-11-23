@@ -2,44 +2,75 @@ using UnityEngine;
 
 public class SunraySpawner : MonoBehaviour
 {
+    [Header("Prefabs")]
     public GameObject sunrayPrefab;
-    public float minInterval = 0.8f;
-    public float maxInterval = 1.8f;
-    public float spawnY = 0f;
+    public GameObject pollutionPrefab;
 
-    private float _timer = 0f;
-    private float _nextSpawn = 1f;
+    [Header("Spawn Settings")]
+    public float spawnRadius = 10f;
+    public float despawnRadius = 12f;
+
+    // Only fast speeds now
+    public float[] speedStages = { 10f, 14f };
+
+    [Range(0f, 1f)]
+    public float pollutionChance = 0.3f;   // 30% pollution, 70% sunrays
+
+    private GameObject activeObject;
 
     void Start()
     {
-        ScheduleNext();
+        SpawnObject();
     }
 
     void Update()
     {
-        _timer += Time.deltaTime;
-        if (_timer >= _nextSpawn)
+        if (activeObject == null)
+            SpawnObject();
+    }
+
+    public void SpawnObject()
+    {
+        // Random angle on spawn circle
+        float angle = Random.Range(0f, 360f);
+        float rad = angle * Mathf.Deg2Rad;
+
+        Vector3 spawnPos = new Vector3(
+            Mathf.Cos(rad),
+            Mathf.Sin(rad),
+            0f
+        ) * spawnRadius;
+
+        bool spawnPollution = Random.value < pollutionChance;
+
+        if (spawnPollution)
         {
-            SpawnSunray();
-            ScheduleNext();
+            // Spawn pollution
+            activeObject = Instantiate(pollutionPrefab, spawnPos, Quaternion.identity);
+
+            Pollution p = activeObject.GetComponent<Pollution>();
+            Vector3 direction = (-spawnPos).normalized;   // goes through leaf center
+
+            p.direction = direction;
+            p.speed = speedStages[Random.Range(0, speedStages.Length)];
+            p.spawner = this;
+        }
+        else
+        {
+            // Spawn sunray
+            activeObject = Instantiate(sunrayPrefab, spawnPos, Quaternion.identity);
+
+            Sunray ray = activeObject.GetComponent<Sunray>();
+            Vector3 direction = (-spawnPos).normalized;  // goes through leaf center
+
+            ray.direction = direction;
+            ray.speed = speedStages[Random.Range(0, speedStages.Length)];
+            ray.spawner = this;
         }
     }
 
-    void ScheduleNext()
+    public void ReleaseObject()
     {
-        _timer = 0f;
-        _nextSpawn = Random.Range(minInterval, maxInterval);
-    }
-
-    void SpawnSunray()
-    {
-        bool fromLeft = Random.value > 0.5f;
-        float startX = fromLeft ? -9f : 9f;
-        Vector3 pos = new Vector3(startX, spawnY, 0f);
-
-        GameObject ray = Instantiate(sunrayPrefab, pos, Quaternion.identity);
-        Sunray sunray = ray.GetComponent<Sunray>();
-        sunray.fromLeft = fromLeft;
-        sunray.speed = Random.Range(3f, 6f);
+        activeObject = null;
     }
 }

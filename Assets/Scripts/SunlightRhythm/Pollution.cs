@@ -1,32 +1,27 @@
 using UnityEngine;
 
-public class Sunray : MonoBehaviour
+public class Pollution : MonoBehaviour
 {
     public float speed;
     public Vector3 direction;       // set by spawner
     public SunraySpawner spawner;
-
-    private bool absorbed = false;
 
     void Update()
     {
         // Move in a straight line
         transform.position += direction * speed * Time.deltaTime;
 
-        // If it leaves the circle without being absorbed → MISS
-        if (!absorbed && transform.position.magnitude > spawner.despawnRadius)
+        // If it just goes off-screen (outside despawnRadius) → no penalty, just disappear
+        if (transform.position.magnitude > spawner.despawnRadius)
         {
-            GameManager.Instance.InstanceMiss();
             Die();
         }
     }
 
-    public void Absorb()
+    // Called when the player clicks it (which is wrong!)
+    public void Clicked()
     {
-        if (absorbed) return;
-
-        absorbed = true;
-        GameManager.Instance.AddScore(1);
+        GameManager.Instance.InstanceMiss();  // player shouldn't click pollution
         Die();
     }
 

@@ -1,65 +1,79 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class LeafInput : MonoBehaviour
 {
-    private Collider2D _zoneCollider;
-    private Camera _cam;
+    private Camera cam;
+
+    private Sunray currentSunray;
+    private Pollution currentPollution;
 
     void Awake()
     {
-        _zoneCollider = GetComponent<Collider2D>();
-        _cam = Camera.main;
-    }
-
-    void OnEnable()
-    {
-        // subscribe to global click/tap events
-        InputSystem.onActionChange += OnActionChange;
-    }
-
-    void OnDisable()
-    {
-        InputSystem.onActionChange -= OnActionChange;
+        cam = Camera.main;
     }
 
     void Update()
     {
-        // works for mouse and touch
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+            TryClick();
+
+        if (Touchscreen.current != null &&
+            Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+            TryClick();
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Sunray ray = col.GetComponent<Sunray>();
+        if (ray != null)
         {
-            TryAbsorb();
+            currentSunray = ray;
+            return;
         }
-        else if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
+
+        Pollution pol = col.GetComponent<Pollution>();
+        if (pol != null)
         {
-            TryAbsorb();
+            currentPollution = pol;
         }
     }
 
-    void TryAbsorb()
+    private void OnTriggerExit2D(Collider2D col)
     {
-        float radius = ((CircleCollider2D)_zoneCollider).radius * transform.localScale.x;
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius);
-
-        bool absorbed = false;
-        foreach (var hit in hits)
+        Sunray ray = col.GetComponent<Sunray>();
+        if (ray != null && ray == currentSunray)
         {
-            Sunray ray = hit.GetComponent<Sunray>();
-            if (ray != null)
-            {
-                ray.Absorb();
-                absorbed = true;
-            }
+            currentSunray = null;
+            return;
         }
 
-        if (!absorbed)
+        Pollution pol = col.GetComponent<Pollution>();
+        if (pol != null && pol == currentPollution)
+        {
+            currentPollution = null;
+        }
+    }
+
+    void TryClick()
+    {
+        // 🛑 If the click is on UI, IGNORE it
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+        // ✔ Real game click
+        if (currentSunray != null)
+        {
+            currentSunray.Absorb();
+        }
+        else if (currentPollution != null)
+        {
+            currentPollution.Clicked();
+        }
+        else
         {
             GameManager.Instance.InstanceMiss();
         }
-    }
-
-    private void OnActionChange(object obj, InputActionChange change)
-    {
-        // placeholder if you later add proper Input Actions
     }
 }
