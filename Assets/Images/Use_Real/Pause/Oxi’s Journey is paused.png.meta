@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 372a332995cd855488b27558eb71ffb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5999422172594158458
+    second: "Oxi\u2019s Journey is paused_0"
+  - first:
+      213: 2992713267156639595
+    second: "Oxi\u2019s Journey is paused_1"
+  - first:
+      213: -6312939044638507997
+    second: "Oxi\u2019s Journey is paused_2"
+  - first:
+      213: -5188901865170608823
+    second: "Oxi\u2019s Journey is paused_3"
+  - first:
+      213: 9003749315024601188
+    second: "Oxi\u2019s Journey is paused_4"
+  - first:
+      213: 3288036886187356878
+    second: "Oxi\u2019s Journey is paused_5"
+  - first:
+      213: -5622547416309894196
+    second: "Oxi\u2019s Journey is paused_6"
+  - first:
+      213: 2652566999361461732
+    second: "Oxi\u2019s Journey is paused_7"
+  - first:
+      213: 8446892506084575246
+    second: "Oxi\u2019s Journey is paused_8"
+  - first:
+      213: -1680079846568834544
+    second: "Oxi\u2019s Journey is paused_9"
+  - first:
+      213: 8597483646321985456
+    second: "Oxi\u2019s Journey is paused_10"
+  - first:
+      213: 537554947679771720
+    second: "Oxi\u2019s Journey is paused_11"
+  - first:
+      213: -538549835349426742
+    second: "Oxi\u2019s Journey is paused_12"
+  - first:
+      213: 276081727233373943
+    second: "Oxi\u2019s Journey is paused_13"
+  - first:
+      213: 5949007901380203018
+    second: "Oxi\u2019s Journey is paused_14"
+  - first:
+      213: -5126330005615895600
+    second: "Oxi\u2019s Journey is paused_15"
+  - first:
+      213: -8448365908845303254
+    second: "Oxi\u2019s Journey is paused_16"
+  - first:
+      213: -3797986912588368365
+    second: "Oxi\u2019s Journey is paused_17"
+  - first:
+      213: 2880943159347751259
+    second: "Oxi\u2019s Journey is paused_18"
+  - first:
+      213: 7394385346536117457
+    second: "Oxi\u2019s Journey is paused_19"
+  - first:
+      213: 5909531039187252750
+    second: "Oxi\u2019s Journey is paused_20"
+  - first:
+      213: 1930373441200567333
+    second: "Oxi\u2019s Journey is paused_21"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 434
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bb31ffdaa324350800000000000000
+      internalID: 5999422172594158458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_1"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 136
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f58734cd0488920800000000000000
+      internalID: 2992713267156639595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_2"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 125
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cb0a3e26fe368a0800000000000000
+      internalID: -6312939044638507997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_3"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 96
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dd420ee315df7b0800000000000000
+      internalID: -5188901865170608823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_4"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 96
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46045b05c4eb3fc70800000000000000
+      internalID: 9003749315024601188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_5"
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 96
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec23491902471ad20800000000000000
+      internalID: 3288036886187356878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_6"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 96
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3fe061ae2b8f1b0800000000000000
+      internalID: -5622547416309894196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_7"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed1ddbc1afcfc420800000000000000
+      internalID: 2652566999361461732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_8"
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 96
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0884111bf3693570800000000000000
+      internalID: 8446892506084575246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_9"
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 96
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac8fee7482fa8e0800000000000000
+      internalID: -1680079846568834544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_10"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 96
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7804d23d5605770800000000000000
+      internalID: 8597483646321985456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_11"
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 96
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cd4b77067c57700800000000000000
+      internalID: 537554947679771720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_12"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 80
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdf62237cfa688f0800000000000000
+      internalID: -538549835349426742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_13"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 55
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6b8b04ed6d4d300800000000000000
+      internalID: 276081727233373943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_14"
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 16
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0252c7ca2f1f8250800000000000000
+      internalID: 5949007901380203018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_15"
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 16
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db96d5350e9bd8b0800000000000000
+      internalID: -5126330005615895600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_16"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a61ce97ff51ca80800000000000000
+      internalID: -8448365908845303254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_17"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 16
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316769d8607da4bc0800000000000000
+      internalID: -3797986912588368365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_18"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 16
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59a30f1a8a2bf720800000000000000
+      internalID: 2880943159347751259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_19"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d493a8ab422e9660800000000000000
+      internalID: 7394385346536117457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_20"
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 16
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06b6eb8b2fd20250800000000000000
+      internalID: 5909531039187252750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oxi\u2019s Journey is paused_21"
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 16
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524bb9eca601aca10800000000000000
+      internalID: 1930373441200567333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c5a89ea886ada6f43910a31c25e45e9c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Oxi\u2019s Journey is paused_0": 5999422172594158458
+      "Oxi\u2019s Journey is paused_1": 2992713267156639595
+      "Oxi\u2019s Journey is paused_10": 8597483646321985456
+      "Oxi\u2019s Journey is paused_11": 537554947679771720
+      "Oxi\u2019s Journey is paused_12": -538549835349426742
+      "Oxi\u2019s Journey is paused_13": 276081727233373943
+      "Oxi\u2019s Journey is paused_14": 5949007901380203018
+      "Oxi\u2019s Journey is paused_15": -5126330005615895600
+      "Oxi\u2019s Journey is paused_16": -8448365908845303254
+      "Oxi\u2019s Journey is paused_17": -3797986912588368365
+      "Oxi\u2019s Journey is paused_18": 2880943159347751259
+      "Oxi\u2019s Journey is paused_19": 7394385346536117457
+      "Oxi\u2019s Journey is paused_2": -6312939044638507997
+      "Oxi\u2019s Journey is paused_20": 5909531039187252750
+      "Oxi\u2019s Journey is paused_21": 1930373441200567333
+      "Oxi\u2019s Journey is paused_3": -5188901865170608823
+      "Oxi\u2019s Journey is paused_4": 9003749315024601188
+      "Oxi\u2019s Journey is paused_5": 3288036886187356878
+      "Oxi\u2019s Journey is paused_6": -5622547416309894196
+      "Oxi\u2019s Journey is paused_7": 2652566999361461732
+      "Oxi\u2019s Journey is paused_8": 8446892506084575246
+      "Oxi\u2019s Journey is paused_9": -1680079846568834544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
