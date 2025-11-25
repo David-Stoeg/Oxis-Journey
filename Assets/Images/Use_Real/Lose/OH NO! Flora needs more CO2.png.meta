@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 19037bae3745e8f489566ab4a8476a22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5122780682877271383
+    second: OH NO! Flora needs more CO2_0
+  - first:
+      213: -7656078579668823788
+    second: OH NO! Flora needs more CO2_1
+  - first:
+      213: 5396893231680055009
+    second: OH NO! Flora needs more CO2_2
+  - first:
+      213: -8075619781534553650
+    second: OH NO! Flora needs more CO2_3
+  - first:
+      213: -2982591344626567548
+    second: OH NO! Flora needs more CO2_4
+  - first:
+      213: 5015114331967956516
+    second: OH NO! Flora needs more CO2_5
+  - first:
+      213: -3203158278746104651
+    second: OH NO! Flora needs more CO2_6
+  - first:
+      213: 2937148200186139420
+    second: OH NO! Flora needs more CO2_7
+  - first:
+      213: 2304970885691201418
+    second: OH NO! Flora needs more CO2_8
+  - first:
+      213: -3486029634002729161
+    second: OH NO! Flora needs more CO2_9
+  - first:
+      213: -7692849243964793104
+    second: OH NO! Flora needs more CO2_10
+  - first:
+      213: -9187910978887613830
+    second: OH NO! Flora needs more CO2_11
+  - first:
+      213: 6569681847286286520
+    second: OH NO! Flora needs more CO2_12
+  - first:
+      213: -7275949681580388340
+    second: OH NO! Flora needs more CO2_13
+  - first:
+      213: -1983843476285990972
+    second: OH NO! Flora needs more CO2_14
+  - first:
+      213: 8910581852721831638
+    second: OH NO! Flora needs more CO2_15
+  - first:
+      213: 5061433509223734068
+    second: OH NO! Flora needs more CO2_16
+  - first:
+      213: 3590281089042801151
+    second: OH NO! Flora needs more CO2_17
+  - first:
+      213: 5978934107751536217
+    second: OH NO! Flora needs more CO2_18
+  - first:
+      213: -4852701049512133279
+    second: OH NO! Flora needs more CO2_19
+  - first:
+      213: -6318014328337782209
+    second: OH NO! Flora needs more CO2_20
+  - first:
+      213: -4806671152619620313
+    second: OH NO! Flora needs more CO2_21
+  - first:
+      213: -1223606282476652745
+    second: OH NO! Flora needs more CO2_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 869
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a20ede4c1a38e8b0800000000000000
+      internalID: -5122780682877271383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 134
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411dc5e681520c590800000000000000
+      internalID: -7656078579668823788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 134
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6effcdccd95ea40800000000000000
+      internalID: 5396893231680055009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 134
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9e38c5892adef80800000000000000
+      internalID: -8075619781534553650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_4
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 154
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f06979f4bb96d0800000000000000
+      internalID: -2982591344626567548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_5
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 134
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426abe8e9e3499540800000000000000
+      internalID: 5015114331967956516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc9cfb34881c83d0800000000000000
+      internalID: -3203158278746104651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13d5c4f9b8d2c820800000000000000
+      internalID: 2937148200186139420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 14
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87dd3beec6ecff10800000000000000
+      internalID: 2304970885691201418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 14
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73748c484822f9fc0800000000000000
+      internalID: -3486029634002729161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 14
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe98defe528d3590800000000000000
+      internalID: -7692849243964793104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_11
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 14
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a720e73f4abfd7080800000000000000
+      internalID: -9187910978887613830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 14
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c4da15d23c2b50800000000000000
+      internalID: 6569681847286286520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 14
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00d8c17052a60b90800000000000000
+      internalID: -7275949681580388340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_14
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 14
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c75ff18ed8f774e0800000000000000
+      internalID: -1983843476285990972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_15
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 14
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ded6891cfeb8ab70800000000000000
+      internalID: 8910581852721831638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 14
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b1a83c5f2dd3640800000000000000
+      internalID: 5061433509223734068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 14
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1e23cd0ad33d130800000000000000
+      internalID: 3590281089042801151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_18
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 14
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9565ffba4e079f250800000000000000
+      internalID: 5978934107751536217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_19
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 14
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16df9ae2b1eb7acb0800000000000000
+      internalID: -4852701049512133279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 14
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a29915177e158a0800000000000000
+      internalID: -6318014328337782209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_21
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 14
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7287df3bd064b4db0800000000000000
+      internalID: -4806671152619620313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OH NO! Flora needs more CO2_22
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737fa0ca190e40fe0800000000000000
+      internalID: -1223606282476652745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 413af2b1aa14ede4c8aefc9230ac5dde
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OH NO! Flora needs more CO2_0: -5122780682877271383
+      OH NO! Flora needs more CO2_1: -7656078579668823788
+      OH NO! Flora needs more CO2_10: -7692849243964793104
+      OH NO! Flora needs more CO2_11: -9187910978887613830
+      OH NO! Flora needs more CO2_12: 6569681847286286520
+      OH NO! Flora needs more CO2_13: -7275949681580388340
+      OH NO! Flora needs more CO2_14: -1983843476285990972
+      OH NO! Flora needs more CO2_15: 8910581852721831638
+      OH NO! Flora needs more CO2_16: 5061433509223734068
+      OH NO! Flora needs more CO2_17: 3590281089042801151
+      OH NO! Flora needs more CO2_18: 5978934107751536217
+      OH NO! Flora needs more CO2_19: -4852701049512133279
+      OH NO! Flora needs more CO2_2: 5396893231680055009
+      OH NO! Flora needs more CO2_20: -6318014328337782209
+      OH NO! Flora needs more CO2_21: -4806671152619620313
+      OH NO! Flora needs more CO2_22: -1223606282476652745
+      OH NO! Flora needs more CO2_3: -8075619781534553650
+      OH NO! Flora needs more CO2_4: -2982591344626567548
+      OH NO! Flora needs more CO2_5: 5015114331967956516
+      OH NO! Flora needs more CO2_6: -3203158278746104651
+      OH NO! Flora needs more CO2_7: 2937148200186139420
+      OH NO! Flora needs more CO2_8: 2304970885691201418
+      OH NO! Flora needs more CO2_9: -3486029634002729161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
