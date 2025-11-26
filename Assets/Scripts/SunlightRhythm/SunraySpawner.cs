@@ -10,28 +10,71 @@ public class SunraySpawner : MonoBehaviour
     public float spawnRadius = 10f;
     public float despawnRadius = 12f;
 
-    // Only fast speeds now
+    // Only fast speeds for normal rays
     public float[] speedStages = { 10f, 14f };
 
+    [Header("Pollution Settings")]
     [Range(0f, 1f)]
-    public float pollutionChance = 0.3f;   // 30% pollution, 70% sunrays
+    public float pollutionChance = 0.3f;
+
+    [Header("First Ray Settings")]
+    public bool firstRaySpawned = false;
+    public float firstRayDelay = 2f;
+    public float firstRaySpeed = 5f; // slow intro ray
 
     private GameObject activeObject;
 
     void Start()
     {
-        SpawnObject();
+        // No spawning immediately; waits for delay
     }
 
     void Update()
     {
+        // FIRST RAY DELAY
+        if (!firstRaySpawned)
+        {
+            firstRayDelay -= Time.deltaTime;
+
+            if (firstRayDelay <= 0f)
+            {
+                SpawnFirstRay();
+                firstRaySpawned = true;
+            }
+            return;
+        }
+
+        // Normal spawning afterwards
         if (activeObject == null)
             SpawnObject();
     }
 
+    // FIRST RAY — always a slow sunray
+    void SpawnFirstRay()
+    {
+        float angle = Random.Range(0f, 360f);
+        float rad = angle * Mathf.Deg2Rad;
+
+        Vector3 spawnPos = new Vector3(
+            Mathf.Cos(rad),
+            Mathf.Sin(rad),
+            0f
+        ) * spawnRadius;
+
+        activeObject = Instantiate(sunrayPrefab, spawnPos, Quaternion.identity);
+
+        Sunray ray = activeObject.GetComponent<Sunray>();
+
+        Vector3 direction = (-spawnPos).normalized; // toward leaf center
+
+        ray.direction = direction;
+        ray.speed = firstRaySpeed;
+        ray.spawner = this;
+    }
+
+    // NORMAL RAYS & POLLUTION
     public void SpawnObject()
     {
-        // Random angle on spawn circle
         float angle = Random.Range(0f, 360f);
         float rad = angle * Mathf.Deg2Rad;
 
@@ -45,11 +88,10 @@ public class SunraySpawner : MonoBehaviour
 
         if (spawnPollution)
         {
-            // Spawn pollution
             activeObject = Instantiate(pollutionPrefab, spawnPos, Quaternion.identity);
 
             Pollution p = activeObject.GetComponent<Pollution>();
-            Vector3 direction = (-spawnPos).normalized;   // goes through leaf center
+            Vector3 direction = (-spawnPos).normalized;
 
             p.direction = direction;
             p.speed = speedStages[Random.Range(0, speedStages.Length)];
@@ -57,11 +99,10 @@ public class SunraySpawner : MonoBehaviour
         }
         else
         {
-            // Spawn sunray
             activeObject = Instantiate(sunrayPrefab, spawnPos, Quaternion.identity);
 
             Sunray ray = activeObject.GetComponent<Sunray>();
-            Vector3 direction = (-spawnPos).normalized;  // goes through leaf center
+            Vector3 direction = (-spawnPos).normalized;
 
             ray.direction = direction;
             ray.speed = speedStages[Random.Range(0, speedStages.Length)];

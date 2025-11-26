@@ -4,15 +4,8 @@ using UnityEngine.EventSystems;
 
 public class LeafInput : MonoBehaviour
 {
-    private Camera cam;
-
     private Sunray currentSunray;
     private Pollution currentPollution;
-
-    void Awake()
-    {
-        cam = Camera.main;
-    }
 
     void Update()
     {
@@ -35,9 +28,7 @@ public class LeafInput : MonoBehaviour
 
         Pollution pol = col.GetComponent<Pollution>();
         if (pol != null)
-        {
             currentPollution = pol;
-        }
     }
 
     private void OnTriggerExit2D(Collider2D col)
@@ -51,29 +42,30 @@ public class LeafInput : MonoBehaviour
 
         Pollution pol = col.GetComponent<Pollution>();
         if (pol != null && pol == currentPollution)
-        {
             currentPollution = null;
-        }
     }
 
     void TryClick()
     {
-        // 🛑 If the click is on UI, IGNORE it
+        // Ignore UI clicks
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
-        // ✔ Real game click
+        // Good click → absorb sunlight
         if (currentSunray != null)
         {
             currentSunray.Absorb();
+            return;
         }
-        else if (currentPollution != null)
+
+        // Bad click → pollution clicked
+        if (currentPollution != null)
         {
             currentPollution.Clicked();
+            return;
         }
-        else
-        {
-            GameManager.Instance.InstanceMiss();
-        }
+
+        // Clicked nothing relevant
+        GameManager.Instance.InstanceMiss();
     }
 }

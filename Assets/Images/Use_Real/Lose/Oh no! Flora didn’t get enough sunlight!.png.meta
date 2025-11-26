@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: c569f6b4af805254d8044bf2c56463b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8642190471988234993
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_0"
+  - first:
+      213: -8611948846645007735
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_1"
+  - first:
+      213: 29495496020257673
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_2"
+  - first:
+      213: -7757107327647885491
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_3"
+  - first:
+      213: 3117736322420329626
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_4"
+  - first:
+      213: 8960525180724039368
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_5"
+  - first:
+      213: 4448238002103772723
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_6"
+  - first:
+      213: 911310407221998752
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_7"
+  - first:
+      213: -960232987510040523
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_8"
+  - first:
+      213: 2733479248974633526
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_9"
+  - first:
+      213: -9211741157176313392
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_10"
+  - first:
+      213: -4230682908581799026
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_11"
+  - first:
+      213: 8921295440110217117
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_12"
+  - first:
+      213: 2560363679927647847
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_13"
+  - first:
+      213: -6249974972202077910
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_14"
+  - first:
+      213: -4258240407215057605
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_15"
+  - first:
+      213: 8222064397549848617
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_16"
+  - first:
+      213: 2433137753586302768
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_17"
+  - first:
+      213: 7471410864793422307
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_18"
+  - first:
+      213: -8690899760093388946
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_19"
+  - first:
+      213: -5538838245427833581
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_20"
+  - first:
+      213: -4171300071538684193
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_21"
+  - first:
+      213: -209091756417336076
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_22"
+  - first:
+      213: -4296159755184886181
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_23"
+  - first:
+      213: 749936014875300444
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_24"
+  - first:
+      213: -4751473824723713710
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_25"
+  - first:
+      213: 5879121238022075058
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_26"
+  - first:
+      213: -2428499927609871026
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_27"
+  - first:
+      213: -3462040292322498049
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_28"
+  - first:
+      213: -1963695525299022605
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_29"
+  - first:
+      213: 8977456591843970012
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_30"
+  - first:
+      213: 5928925585869733543
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_31"
+  - first:
+      213: 7285837302622996777
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_32"
+  - first:
+      213: -4316451124252102983
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_33"
+  - first:
+      213: -3764137447248322984
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_34"
+  - first:
+      213: 5557910245061285434
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_35"
+  - first:
+      213: -1941431384678304485
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_36"
+  - first:
+      213: 7288082789585601664
+    second: "Oh no! Flora didn\u2019t get enough sunlight!_37"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 898
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0530e3dd85c01880800000000000000
+      internalID: -8642190471988234993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 141
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aa3ebe6263c7880800000000000000
+      internalID: -8611948846645007735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_2"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 161
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98be2c25ff9c86000800000000000000
+      internalID: 29495496020257673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_3"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 141
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47d7f20cf7395490800000000000000
+      internalID: -7757107327647885491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_4"
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 141
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c4231baac644b20800000000000000
+      internalID: 3117736322420329626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_5"
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 141
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cecffd4d2e2a5c70800000000000000
+      internalID: 8960525180724039368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_6"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 191
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336e9c725e05bbd30800000000000000
+      internalID: 4448238002103772723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_7"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 141
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4759eacff95ac00800000000000000
+      internalID: 911310407221998752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_8"
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 176
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5381ad57f219ca2f0800000000000000
+      internalID: -960232987510040523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_9"
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 141
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ad804f4e44fe520800000000000000
+      internalID: 2733479248974633526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_10"
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 141
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9f8a33932592080800000000000000
+      internalID: -9211741157176313392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_11"
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 141
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b5aac4f489945c0800000000000000
+      internalID: -4230682908581799026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_12"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 141
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97e41c8feececb70800000000000000
+      internalID: 8921295440110217117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_13"
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 141
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e36e5933d388320800000000000000
+      internalID: 2560363679927647847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_14"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 141
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2130d660e0a349a0800000000000000
+      internalID: -6249974972202077910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_15"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 141
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b355bb729e0b7e4c0800000000000000
+      internalID: -4258240407215057605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_16"
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 141
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9284858d104aa1270800000000000000
+      internalID: 8222064397549848617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_17"
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 141
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7a1445ed34c120800000000000000
+      internalID: 2433137753586302768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_18"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 141
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e98107a898cfa760800000000000000
+      internalID: 7471410864793422307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_19"
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 119
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f1b1de6b8b36780800000000000000
+      internalID: -8690899760093388946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_20"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 141
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3151de836f71223b0800000000000000
+      internalID: -5538838245427833581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_21"
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 21
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde00687fa09c16c0800000000000000
+      internalID: -4171300071538684193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_22"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 21
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc3845c728291df0800000000000000
+      internalID: -209091756417336076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_23"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 71
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e20e5f679f064c0800000000000000
+      internalID: -4296159755184886181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_24"
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 21
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c521aea05de486a00800000000000000
+      internalID: 749936014875300444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_25"
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 21
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251c6c51bbf5f0eb0800000000000000
+      internalID: -4751473824723713710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_26"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 41
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2b2c7fd95d69150800000000000000
+      internalID: 5879121238022075058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_27"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 21
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4570cdbe2c3c4ed0800000000000000
+      internalID: -2428499927609871026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_28"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 21
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9270262bc54ffc0800000000000000
+      internalID: -3462040292322498049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_29"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 21
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f41787e25d8fb4e0800000000000000
+      internalID: -1963695525299022605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_30"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 21
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb4957a435569c70800000000000000
+      internalID: 8977456591843970012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_31"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae7d755866c74250800000000000000
+      internalID: 5928925585869733543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_32"
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 21
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929422abc6e7c1560800000000000000
+      internalID: 7285837302622996777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_33"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 21
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be2e907292e814c0800000000000000
+      internalID: -4316451124252102983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_34"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 21
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e940b5fe813cbc0800000000000000
+      internalID: -3764137447248322984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_35"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 21
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d16abbe9a12d40800000000000000
+      internalID: 5557910245061285434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_36"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1574781176ae05e0800000000000000
+      internalID: -1941431384678304485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Oh no! Flora didn\u2019t get enough sunlight!_37"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 21
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08443e6eea8742560800000000000000
+      internalID: 7288082789585601664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 065cfbcb33b70b3438c13101b71effa3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Oh no! Flora didn\u2019t get enough sunlight!_0": -8642190471988234993
+      "Oh no! Flora didn\u2019t get enough sunlight!_1": -8611948846645007735
+      "Oh no! Flora didn\u2019t get enough sunlight!_10": -9211741157176313392
+      "Oh no! Flora didn\u2019t get enough sunlight!_11": -4230682908581799026
+      "Oh no! Flora didn\u2019t get enough sunlight!_12": 8921295440110217117
+      "Oh no! Flora didn\u2019t get enough sunlight!_13": 2560363679927647847
+      "Oh no! Flora didn\u2019t get enough sunlight!_14": -6249974972202077910
+      "Oh no! Flora didn\u2019t get enough sunlight!_15": -4258240407215057605
+      "Oh no! Flora didn\u2019t get enough sunlight!_16": 8222064397549848617
+      "Oh no! Flora didn\u2019t get enough sunlight!_17": 2433137753586302768
+      "Oh no! Flora didn\u2019t get enough sunlight!_18": 7471410864793422307
+      "Oh no! Flora didn\u2019t get enough sunlight!_19": -8690899760093388946
+      "Oh no! Flora didn\u2019t get enough sunlight!_2": 29495496020257673
+      "Oh no! Flora didn\u2019t get enough sunlight!_20": -5538838245427833581
+      "Oh no! Flora didn\u2019t get enough sunlight!_21": -4171300071538684193
+      "Oh no! Flora didn\u2019t get enough sunlight!_22": -209091756417336076
+      "Oh no! Flora didn\u2019t get enough sunlight!_23": -4296159755184886181
+      "Oh no! Flora didn\u2019t get enough sunlight!_24": 749936014875300444
+      "Oh no! Flora didn\u2019t get enough sunlight!_25": -4751473824723713710
+      "Oh no! Flora didn\u2019t get enough sunlight!_26": 5879121238022075058
+      "Oh no! Flora didn\u2019t get enough sunlight!_27": -2428499927609871026
+      "Oh no! Flora didn\u2019t get enough sunlight!_28": -3462040292322498049
+      "Oh no! Flora didn\u2019t get enough sunlight!_29": -1963695525299022605
+      "Oh no! Flora didn\u2019t get enough sunlight!_3": -7757107327647885491
+      "Oh no! Flora didn\u2019t get enough sunlight!_30": 8977456591843970012
+      "Oh no! Flora didn\u2019t get enough sunlight!_31": 5928925585869733543
+      "Oh no! Flora didn\u2019t get enough sunlight!_32": 7285837302622996777
+      "Oh no! Flora didn\u2019t get enough sunlight!_33": -4316451124252102983
+      "Oh no! Flora didn\u2019t get enough sunlight!_34": -3764137447248322984
+      "Oh no! Flora didn\u2019t get enough sunlight!_35": 5557910245061285434
+      "Oh no! Flora didn\u2019t get enough sunlight!_36": -1941431384678304485
+      "Oh no! Flora didn\u2019t get enough sunlight!_37": 7288082789585601664
+      "Oh no! Flora didn\u2019t get enough sunlight!_4": 3117736322420329626
+      "Oh no! Flora didn\u2019t get enough sunlight!_5": 8960525180724039368
+      "Oh no! Flora didn\u2019t get enough sunlight!_6": 4448238002103772723
+      "Oh no! Flora didn\u2019t get enough sunlight!_7": 911310407221998752
+      "Oh no! Flora didn\u2019t get enough sunlight!_8": -960232987510040523
+      "Oh no! Flora didn\u2019t get enough sunlight!_9": 2733479248974633526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
