@@ -2231,7 +2231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1086836266
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2463,11 +2463,14 @@ MonoBehaviour:
   spawnRadius: 10
   despawnRadius: 12
   speedStages:
+  - 10
+  - 12
   - 14
   - 16
-  - 18
-  - 20
-  pollutionChance: 0.5
+  pollutionChance: 0.25
+  firstRaySpawned: 0
+  firstRayDelay: 2
+  firstRaySpeed: 8
 --- !u!4 &1109794801
 Transform:
   m_ObjectHideFlags: 0
@@ -3504,7 +3507,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.02}
-  m_LocalScale: {x: 0.8196533, y: 0.8196533, z: 0.8196533}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}

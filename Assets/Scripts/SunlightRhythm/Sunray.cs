@@ -3,17 +3,17 @@ using UnityEngine;
 public class Sunray : MonoBehaviour
 {
     public float speed;
-    public Vector3 direction;       // set by spawner
+    public Vector3 direction;
     public SunraySpawner spawner;
 
     private bool absorbed = false;
 
     void Update()
     {
-        // Move in a straight line
+        // Straight-line movement
         transform.position += direction * speed * Time.deltaTime;
 
-        // If it leaves the circle without being absorbed → MISS
+        // Miss only when leaving screen area
         if (!absorbed && transform.position.magnitude > spawner.despawnRadius)
         {
             GameManager.Instance.InstanceMiss();
