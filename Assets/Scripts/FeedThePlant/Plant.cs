@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
 public class Plant : MonoBehaviour
 {
     public int maxHealth = 3;
@@ -13,29 +12,29 @@ public class Plant : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        // If player is holding it ABOVE plant then releases,
-        // OnMouseUp will re-enable gravity BUT object is still overlapping.
-        // We'll allow "delivery" when the object is *not currently being dragged*.
+        if (!other.CompareTag("Hit"))
+            return;
 
-        FallingObject falling = other.GetComponent<FallingObject>();
-        Draggable drag = other.GetComponent<Draggable>();
+        FallingObject falling = other.GetComponentInParent<FallingObject>();
+        Draggable drag = other.GetComponentInParent<Draggable>();
 
-        if (falling != null && drag != null)
+        if (falling == null) return;
+
+        // DRAGGING → check if auto-collect CO2
+        if (drag != null && drag.IsDragging)
         {
-            // delivered only if not being dragged right now
-            // (prevents scoring spam while you're still holding it)
-            if (!IsDragging(drag))
+            if (falling.type == FallingType.Good)
             {
-                falling.ProcessAtPlant(this);
+                falling.ProcessAtPlant(this); // auto score
+                return;
             }
         }
-    }
 
-    private bool IsDragging(Draggable drag)
-    {
-        // We can't access _isDragging directly (private),
-        // so let's make a public helper in Draggable instead.
-        return drag.IsDragging;
+        // NOT DRAGGING → normal process
+        if (drag == null || !drag.IsDragging)
+        {
+            falling.ProcessAtPlant(this);
+        }
     }
 
     public void TakeDamage(int dmg)
@@ -44,15 +43,6 @@ public class Plant : MonoBehaviour
         GameManager.Instance.UpdateLives(currentHealth);
 
         if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        // simple lose condition for now
-        Debug.Log("Plant died. Game Over.");
-        GameManager.Instance.GameOver();
+            GameManager.Instance.GameOver();
     }
 }

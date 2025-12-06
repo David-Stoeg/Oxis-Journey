@@ -7,6 +7,14 @@ public class LeafInput : MonoBehaviour
     private Sunray currentSunray;
     private Pollution currentPollution;
 
+    public SunraySpawner spawner; // assign in Inspector, or find in Awake
+
+    void Awake()
+    {
+        if (spawner == null)
+            spawner = FindObjectOfType<SunraySpawner>();
+    }
+
     void Update()
     {
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
@@ -65,7 +73,13 @@ public class LeafInput : MonoBehaviour
             return;
         }
 
-        // Clicked nothing relevant
-        GameManager.Instance.InstanceMiss();
+        // ❌ Clicked nothing relevant
+        // BUT: only allow one heart loss per active object
+        if (spawner != null && spawner.activeObject != null && !spawner.hasPenalizedThisObject)
+        {
+            GameManager.Instance.InstanceMiss();
+            spawner.hasPenalizedThisObject = true;
+        }
+        // else: ignore extra spam-clicks during same ray
     }
 }

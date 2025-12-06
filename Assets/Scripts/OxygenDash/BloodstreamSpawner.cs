@@ -4,132 +4,116 @@ public class BloodstreamSpawner : MonoBehaviour
 {
     [Header("Prefabs")]
     public GameObject bacteriaPrefab;
-    public GameObject hemoglobinPrefab;
     public GameObject endCellPrefab;
 
     [Header("Timing")]
-    public float spawnInterval = 1.2f;
-    public float hemoglobinSpawnTime = 12f;
-    public float boostWallTime = 14f;
+    public float spawnInterval = 1.0f;
     public float stopSpawningAt = 26f;
-    public float endCellSpawnTime = 27f;
+    public float finishDelay = 3f;   // ← NEW: extra delay before finish appears
+    public float endCellOffset = 14f;
 
     [Header("Lanes")]
-    public int lanes = 7;          // -3 to +3
+    public int lanes = 7;
     public float laneSpacing = 1.2f;
+    public float laneJitter = 0.25f;
+
+    [Header("Safe Corridor Settings")]
+    [Range(1, 3)] public int corridorWidth = 2;
+
+    [Header("Obstacle Randomness")]
+    public float rotationMin = 0f;
+    public float rotationMax = 360f;
 
     private float timer = 0f;
     private float gameTimer = 0f;
-    private bool hemoglobinSpawned = false;
-    private bool wallSpawned = false;
-    private bool endCellSpawned = false;
+    private bool finishSpawned = false;
+    
+    [Header("Horizontal Offsets")]
+    public float xJitter = 0.5f;
 
     void Update()
     {
         gameTimer += Time.deltaTime;
 
-        // 1) Spawn hemoglobin ONCE
-        if (!hemoglobinSpawned && gameTimer >= hemoglobinSpawnTime)
-        {
-            hemoglobinSpawned = true;
-            SpawnHemoglobin();
-            Debug.Log("Hemoglobin spawned!");
-        }
-
-        // 2) Spawn full wall ONCE
-        if (!wallSpawned && gameTimer >= boostWallTime)
-        {
-            wallSpawned = true;
-            SpawnWallWithoutGap();
-            Debug.Log("BOOST WALL SPAWNED!");
-        }
-
-        // 3) Stop obstacle waves at X seconds
+        // 1) Stop obstacles after stopSpawningAt
         if (gameTimer >= stopSpawningAt)
         {
-            if (!endCellSpawned)
+            if (!finishSpawned && gameTimer >= stopSpawningAt + finishDelay)
             {
-                endCellSpawned = true;
                 SpawnEndCell();
-                Debug.Log("End Cell Spawned!");
+                finishSpawned = true;
             }
             return;
         }
 
-        // 4) Normal wave spawning
+        // 2) Spawn normal waves
         timer += Time.deltaTime;
         if (timer >= spawnInterval)
         {
             timer = 0;
-            SpawnWaveWithGap();
+            SpawnWave();
         }
     }
 
-    void SpawnWaveWithGap()
+    void SpawnWave()
     {
-        int gapLane = Random.Range(0, lanes);
-        int? secondGap = (Random.value > 0.7f) ? Random.Range(0, lanes) : (int?)null;
+        int center = Random.Range(0, lanes);
+        int half = corridorWidth / 2;
 
         for (int i = 0; i < lanes; i++)
         {
-            if (i == gapLane) continue;
-            if (secondGap != null && i == secondGap.Value) continue;
+            if (Mathf.Abs(i - center) <= half)
+                continue;
 
-            SpawnBacteriaInLane(i - lanes / 2);
+            SpawnRandomizedBacteria(i - lanes / 2);
         }
     }
 
-    void SpawnWallWithoutGap()
+    void SpawnRandomizedBacteria(int lane)
     {
-        for (int i = 0; i < lanes; i++)
-        {
-            SpawnBacteriaInLane(i - lanes / 2);
-        }
-    }
+        // Vertical position with jitter
+        float y = (lane * laneSpacing) + Random.Range(-laneJitter, laneJitter);
 
-    void SpawnHemoglobin()
-    {
-        if (hemoglobinPrefab == null)
-        {
-            Debug.LogError("Hemoglobin prefab is NOT assigned!");
-            return;
-        }
+        // Horizontal jitter (slight left-right variance)
+        float jitteredX = Camera.main.transform.position.x + 12f + Random.Range(-xJitter, xJitter);
 
-        float startX = Camera.main.transform.position.x + 12f;
-        Vector3 pos = new Vector3(startX, 0, 0);
+        Vector3 pos = new Vector3(jitteredX, y, 0);
 
-        Debug.Log("Spawning Hemoglobin at: " + pos);
-        Instantiate(hemoglobinPrefab, pos, Quaternion.identity);
-    }
-
-    void SpawnEndCell()
-    {
-        if (endCellPrefab == null)
-        {
-            Debug.LogError("END CELL prefab is NOT assigned!");
-            return;
-        }
-
-        float startX = Camera.main.transform.position.x + 14f;
-        Vector3 pos = new Vector3(startX, 0, 0);
-
-        Debug.Log("Spawning END CELL at: " + pos);
-        Instantiate(endCellPrefab, pos, Quaternion.identity);
-    }
-
-    void SpawnBacteriaInLane(int lane)
-    {
-        float y = lane * laneSpacing;
-
-        Vector3 pos = new Vector3(Camera.main.transform.position.x + 12f, y, 0);
         GameObject obj = Instantiate(bacteriaPrefab, pos, Quaternion.identity);
 
-        // Make sure obstacle only uses MoveLeft
+        // Ensure correct tag
+        obj.tag = "Obstacle";
+
+        // Rotate ONLY the child sprite
+        Transform spriteChild = obj.transform.Find("Sprite"); // or "Sprite" depending on your prefab
+        if (spriteChild != null)
+        {
+            float zRotation = Random.Range(rotationMin, rotationMax);
+            spriteChild.localRotation = Quaternion.Euler(0f, 0f, zRotation);
+        }
+        else
+        {
+            Debug.LogWarning("Bacteria prefab missing child named 'Sprite'!");
+        }
+
+        // Make sure physics is disabled
         Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
             rb.gravityScale = 0;
         }
+    }
+
+    void SpawnEndCell()
+    {
+        Vector3 pos = new Vector3(
+            Camera.main.transform.position.x + endCellOffset,
+            0,
+            0
+        );
+
+        GameObject cell = Instantiate(endCellPrefab, pos, Quaternion.identity);
+        cell.tag = "Finish"; // ensure recognition by player script
     }
 }

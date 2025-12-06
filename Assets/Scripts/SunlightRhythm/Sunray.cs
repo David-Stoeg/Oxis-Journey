@@ -6,7 +6,7 @@ public class Sunray : MonoBehaviour
     public Vector3 direction;
     public SunraySpawner spawner;
 
-    private bool absorbed = false;
+    private bool resolved = false; // already scored/errored?
 
     void Update()
     {
@@ -14,18 +14,25 @@ public class Sunray : MonoBehaviour
         transform.position += direction * speed * Time.deltaTime;
 
         // Miss only when leaving screen area
-        if (!absorbed && transform.position.magnitude > spawner.despawnRadius)
+        if (!resolved && transform.position.magnitude > spawner.despawnRadius)
         {
-            GameManager.Instance.InstanceMiss();
+            // Only penalize if this object hasn't already caused an error
+            if (!spawner.hasPenalizedThisObject)
+            {
+                GameManager.Instance.InstanceMiss();
+                spawner.hasPenalizedThisObject = true;
+            }
+
+            resolved = true;
             Die();
         }
     }
 
     public void Absorb()
     {
-        if (absorbed) return;
+        if (resolved) return;
 
-        absorbed = true;
+        resolved = true;
         GameManager.Instance.AddScore(1);
         Die();
     }

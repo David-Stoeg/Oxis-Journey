@@ -20,18 +20,21 @@ public class SunraySpawner : MonoBehaviour
     [Header("First Ray Settings")]
     public bool firstRaySpawned = false;
     public float firstRayDelay = 2f;
-    public float firstRaySpeed = 5f; // slow intro ray
+    public float firstRaySpeed = 5f;
 
-    private GameObject activeObject;
+    [HideInInspector] public GameObject activeObject;
+
+    // 👇 NEW: only one heart loss per object
+    [HideInInspector] public bool hasPenalizedThisObject = false;
 
     void Start()
     {
-        // No spawning immediately; waits for delay
+        // wait for firstRayDelay, then spawn first ray
     }
 
     void Update()
     {
-        // FIRST RAY DELAY
+        // FIRST RAY
         if (!firstRaySpawned)
         {
             firstRayDelay -= Time.deltaTime;
@@ -49,40 +52,31 @@ public class SunraySpawner : MonoBehaviour
             SpawnObject();
     }
 
-    // FIRST RAY — always a slow sunray
     void SpawnFirstRay()
     {
         float angle = Random.Range(0f, 360f);
         float rad = angle * Mathf.Deg2Rad;
 
-        Vector3 spawnPos = new Vector3(
-            Mathf.Cos(rad),
-            Mathf.Sin(rad),
-            0f
-        ) * spawnRadius;
+        Vector3 spawnPos = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f) * spawnRadius;
 
         activeObject = Instantiate(sunrayPrefab, spawnPos, Quaternion.identity);
 
         Sunray ray = activeObject.GetComponent<Sunray>();
-
-        Vector3 direction = (-spawnPos).normalized; // toward leaf center
+        Vector3 direction = (-spawnPos).normalized;
 
         ray.direction = direction;
         ray.speed = firstRaySpeed;
         ray.spawner = this;
+
+        hasPenalizedThisObject = false; // reset penalty budget
     }
 
-    // NORMAL RAYS & POLLUTION
     public void SpawnObject()
     {
         float angle = Random.Range(0f, 360f);
         float rad = angle * Mathf.Deg2Rad;
 
-        Vector3 spawnPos = new Vector3(
-            Mathf.Cos(rad),
-            Mathf.Sin(rad),
-            0f
-        ) * spawnRadius;
+        Vector3 spawnPos = new Vector3(Mathf.Cos(rad), Mathf.Sin(rad), 0f) * spawnRadius;
 
         bool spawnPollution = Random.value < pollutionChance;
 
@@ -108,10 +102,13 @@ public class SunraySpawner : MonoBehaviour
             ray.speed = speedStages[Random.Range(0, speedStages.Length)];
             ray.spawner = this;
         }
+
+        hasPenalizedThisObject = false; // new object, fresh mistake budget
     }
 
     public void ReleaseObject()
     {
         activeObject = null;
+        hasPenalizedThisObject = false;
     }
 }

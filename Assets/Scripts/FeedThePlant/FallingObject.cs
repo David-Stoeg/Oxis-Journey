@@ -1,42 +1,31 @@
 using UnityEngine;
 
-public enum FallingType
-{
-    Good,
-    Bad
-}
+public enum FallingType { Good, Bad }
 
 public class FallingObject : MonoBehaviour
 {
     public FallingType type = FallingType.Good;
-    public int scoreValue = 1;   // how many points if delivered (for Good)
-    public int damageValue = 1;  // how much damage to plant if delivered (for Bad)
+    public int scoreValue = 1;
+    public int damageValue = 1;
 
-    private bool _hasBeenProcessed = false;
+    private bool _processed = false;
 
     public void ProcessAtPlant(Plant plant)
     {
-        if (_hasBeenProcessed) return; // avoid double scoring
-        _hasBeenProcessed = true;
+        if (_processed) return;
+        _processed = true;
 
         if (type == FallingType.Good)
-        {
             GameManager.Instance.AddScore(scoreValue);
-        }
-        else // Bad
-        {
+        else
             plant.TakeDamage(damageValue);
-        }
 
         Destroy(gameObject);
     }
 
-    // Optional: if it falls off-screen, destroy it so we don't leak objects
     void Update()
     {
         if (transform.position.y < -6f)
-        {
             Destroy(gameObject);
-        }
     }
 }

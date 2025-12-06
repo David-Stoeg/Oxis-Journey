@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7113603092091865767}
   - component: {fileID: 1972248107952742004}
   m_Layer: 0
-  m_Name: Bug2
+  m_Name: Pollution2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +57,7 @@ SpriteRenderer:
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -81,8 +81,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1799379329
   m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3367932149377307684, guid: eae462ff52f4e1440a05ec71b4fc26d4, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -6550503409862631441, guid: a1b500c93809fa74c94ed6fe9a34a355, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +128,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.39
+  m_Radius: 0.33
 --- !u!50 &7113603092091865767
 Rigidbody2D:
   serializedVersion: 5
