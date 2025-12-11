@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 6fee30e487a4b074ca849357d9518e16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1836276366206494178
+    second: Well done! The oxygen cycle continues thanks to you!_0
+  - first:
+      213: 7903159067663373023
+    second: Well done! The oxygen cycle continues thanks to you!_1
+  - first:
+      213: -6986300603282894968
+    second: Well done! The oxygen cycle continues thanks to you!_2
+  - first:
+      213: 4041317618927949719
+    second: Well done! The oxygen cycle continues thanks to you!_3
+  - first:
+      213: 6746621570303863756
+    second: Well done! The oxygen cycle continues thanks to you!_4
+  - first:
+      213: 8901763825939154376
+    second: Well done! The oxygen cycle continues thanks to you!_5
+  - first:
+      213: -6176879847659302763
+    second: Well done! The oxygen cycle continues thanks to you!_6
+  - first:
+      213: 3984851139622239959
+    second: Well done! The oxygen cycle continues thanks to you!_7
+  - first:
+      213: -989332668772398904
+    second: Well done! The oxygen cycle continues thanks to you!_8
+  - first:
+      213: -4284704339189158905
+    second: Well done! The oxygen cycle continues thanks to you!_9
+  - first:
+      213: -1658075212641561206
+    second: Well done! The oxygen cycle continues thanks to you!_10
+  - first:
+      213: -3923302473731857614
+    second: Well done! The oxygen cycle continues thanks to you!_11
+  - first:
+      213: -3984989314205212028
+    second: Well done! The oxygen cycle continues thanks to you!_12
+  - first:
+      213: -6931913296622069250
+    second: Well done! The oxygen cycle continues thanks to you!_13
+  - first:
+      213: -6627973154789733433
+    second: Well done! The oxygen cycle continues thanks to you!_14
+  - first:
+      213: -1086922176148154629
+    second: Well done! The oxygen cycle continues thanks to you!_15
+  - first:
+      213: -2391725792975132610
+    second: Well done! The oxygen cycle continues thanks to you!_16
+  - first:
+      213: 3407423011798381758
+    second: Well done! The oxygen cycle continues thanks to you!_17
+  - first:
+      213: 3666091402413294189
+    second: Well done! The oxygen cycle continues thanks to you!_18
+  - first:
+      213: -1324905516582934089
+    second: Well done! The oxygen cycle continues thanks to you!_19
+  - first:
+      213: 8497171466676226583
+    second: Well done! The oxygen cycle continues thanks to you!_20
+  - first:
+      213: 6628758338104051128
+    second: Well done! The oxygen cycle continues thanks to you!_21
+  - first:
+      213: -7977052531612515360
+    second: Well done! The oxygen cycle continues thanks to you!_22
+  - first:
+      213: -5043905903061859802
+    second: Well done! The oxygen cycle continues thanks to you!_23
+  - first:
+      213: -3352678831827883743
+    second: Well done! The oxygen cycle continues thanks to you!_24
+  - first:
+      213: 1334957929607178736
+    second: Well done! The oxygen cycle continues thanks to you!_25
+  - first:
+      213: -4112717793112350826
+    second: Well done! The oxygen cycle continues thanks to you!_26
+  - first:
+      213: 1569782323600254153
+    second: Well done! The oxygen cycle continues thanks to you!_27
+  - first:
+      213: 4414080365505628564
+    second: Well done! The oxygen cycle continues thanks to you!_28
+  - first:
+      213: 1146515190340900948
+    second: Well done! The oxygen cycle continues thanks to you!_29
+  - first:
+      213: -695557635162199237
+    second: Well done! The oxygen cycle continues thanks to you!_30
+  - first:
+      213: -5191179953424749809
+    second: Well done! The oxygen cycle continues thanks to you!_31
+  - first:
+      213: -2075275222298201295
+    second: Well done! The oxygen cycle continues thanks to you!_32
+  - first:
+      213: 1904717399290595555
+    second: Well done! The oxygen cycle continues thanks to you!_33
+  - first:
+      213: -8460775983989734209
+    second: Well done! The oxygen cycle continues thanks to you!_34
+  - first:
+      213: -4126727720125833749
+    second: Well done! The oxygen cycle continues thanks to you!_35
+  - first:
+      213: 7953895149657438967
+    second: Well done! The oxygen cycle continues thanks to you!_36
+  - first:
+      213: -2032928105022144851
+    second: Well done! The oxygen cycle continues thanks to you!_37
+  - first:
+      213: -9118478091348864684
+    second: Well done! The oxygen cycle continues thanks to you!_38
+  - first:
+      213: 1776691476858514401
+    second: Well done! The oxygen cycle continues thanks to you!_39
+  - first:
+      213: -3868409166892117006
+    second: Well done! The oxygen cycle continues thanks to you!_40
+  - first:
+      213: -5614910205720297414
+    second: Well done! The oxygen cycle continues thanks to you!_41
+  - first:
+      213: -3709743795088498427
+    second: Well done! The oxygen cycle continues thanks to you!_42
+  - first:
+      213: 5484912304903812249
+    second: Well done! The oxygen cycle continues thanks to you!_43
+  - first:
+      213: -8867201871071596859
+    second: Well done! The oxygen cycle continues thanks to you!_44
+  - first:
+      213: -4829581568452597043
+    second: Well done! The oxygen cycle continues thanks to you!_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 929
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a11dabf5c3486e0800000000000000
+      internalID: -1836276366206494178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 112
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd29b7f9c49adad60800000000000000
+      internalID: 7903159067663373023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 112
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc937cd9cab0f90800000000000000
+      internalID: -6986300603282894968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 112
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7975abc66f4a51830800000000000000
+      internalID: 4041317618927949719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 112
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb23f3b290d0ad50800000000000000
+      internalID: 6746621570303863756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5868f390b698b70800000000000000
+      internalID: 8901763825939154376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 112
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5909ffb4180574aa0800000000000000
+      internalID: -6176879847659302763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 112
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de7ef3bff80d4730800000000000000
+      internalID: 3984851139622239959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 128
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c121fd2f2542f0800000000000000
+      internalID: -989332668772398904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 112
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c2e07da1ca984c0800000000000000
+      internalID: -4284704339189158905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 112
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a859e9301655df8e0800000000000000
+      internalID: -1658075212641561206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 112
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2332dcacf21ad89c0800000000000000
+      internalID: -3923302473731857614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 112
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4822215055972b8c0800000000000000
+      internalID: -3984989314205212028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_13
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 95
+        width: 81
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9d8056595eccf90800000000000000
+      internalID: -6931913296622069250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_14
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 95
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbceef3885b404a0800000000000000
+      internalID: -6627973154789733433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_15
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 112
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6d1302a0a7ae0f0800000000000000
+      internalID: -1086922176148154629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_16
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 112
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38e39d2012eeced0800000000000000
+      internalID: -2391725792975132610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_17
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 112
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4fbb90d29994f20800000000000000
+      internalID: 3407423011798381758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 95
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6245fae4b290e230800000000000000
+      internalID: 3666091402413294189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_19
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 112
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b96e1bc37dfc9de0800000000000000
+      internalID: -1324905516582934089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_20
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 112
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a42d2dd640ce570800000000000000
+      internalID: 8497171466676226583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 112
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c99c76941efb50800000000000000
+      internalID: 6628758338104051128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 112
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e30b9a9cf0db4190800000000000000
+      internalID: -7977052531612515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622808f0e42700ab0800000000000000
+      internalID: -5043905903061859802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 56
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1296dee9d54e871d0800000000000000
+      internalID: -3352678831827883743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9a3500a29b68210800000000000000
+      internalID: 1334957929607178736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_26
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 16
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f1c1015f0bce6c0800000000000000
+      internalID: -4112717793112350826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 16
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c461ecc4bcf8c510800000000000000
+      internalID: 1569782323600254153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_28
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 16
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4994df3a4b6f14d30800000000000000
+      internalID: 4414080365505628564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_29
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 32
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458dbd9bd7d39ef00800000000000000
+      internalID: 1146515190340900948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 16
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ba85b1402e856f0800000000000000
+      internalID: -695557635162199237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b2dfe165935f7b0800000000000000
+      internalID: -5191179953424749809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 16
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133febb3e242333e0800000000000000
+      internalID: -2075275222298201295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_33
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 16
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8c83e026aee6a10800000000000000
+      internalID: 1904717399290595555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 16
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c226d119459a80800000000000000
+      internalID: -8460775983989734209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 16
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed542db00beab6c0800000000000000
+      internalID: -4126727720125833749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_36
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 16
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fab8004f79e16e60800000000000000
+      internalID: 7953895149657438967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae3f3ec8a699c3e0800000000000000
+      internalID: -2032928105022144851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 15
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45118f8dc78a47180800000000000000
+      internalID: -9118478091348864684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_39
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 16
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebad912c7318a810800000000000000
+      internalID: 1776691476858514401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_40
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 16
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d781cb56a05ac0800000000000000
+      internalID: -3868409166892117006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_41
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 16
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30835ebae4d312b0800000000000000
+      internalID: -5614910205720297414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_42
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5016a066ca7548cc0800000000000000
+      internalID: -3709743795088498427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_43
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 16
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994f5f55ea25e1c40800000000000000
+      internalID: 5484912304903812249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_44
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 16
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce2913f0ee51f480800000000000000
+      internalID: -8867201871071596859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Well done! The oxygen cycle continues thanks to you!_45
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 16
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaeb96d621e9fcb0800000000000000
+      internalID: -4829581568452597043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c8f1763735c38544296a7228756f504e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Well done! The oxygen cycle continues thanks to you!_0: -1836276366206494178
+      Well done! The oxygen cycle continues thanks to you!_1: 7903159067663373023
+      Well done! The oxygen cycle continues thanks to you!_10: -1658075212641561206
+      Well done! The oxygen cycle continues thanks to you!_11: -3923302473731857614
+      Well done! The oxygen cycle continues thanks to you!_12: -3984989314205212028
+      Well done! The oxygen cycle continues thanks to you!_13: -6931913296622069250
+      Well done! The oxygen cycle continues thanks to you!_14: -6627973154789733433
+      Well done! The oxygen cycle continues thanks to you!_15: -1086922176148154629
+      Well done! The oxygen cycle continues thanks to you!_16: -2391725792975132610
+      Well done! The oxygen cycle continues thanks to you!_17: 3407423011798381758
+      Well done! The oxygen cycle continues thanks to you!_18: 3666091402413294189
+      Well done! The oxygen cycle continues thanks to you!_19: -1324905516582934089
+      Well done! The oxygen cycle continues thanks to you!_2: -6986300603282894968
+      Well done! The oxygen cycle continues thanks to you!_20: 8497171466676226583
+      Well done! The oxygen cycle continues thanks to you!_21: 6628758338104051128
+      Well done! The oxygen cycle continues thanks to you!_22: -7977052531612515360
+      Well done! The oxygen cycle continues thanks to you!_23: -5043905903061859802
+      Well done! The oxygen cycle continues thanks to you!_24: -3352678831827883743
+      Well done! The oxygen cycle continues thanks to you!_25: 1334957929607178736
+      Well done! The oxygen cycle continues thanks to you!_26: -4112717793112350826
+      Well done! The oxygen cycle continues thanks to you!_27: 1569782323600254153
+      Well done! The oxygen cycle continues thanks to you!_28: 4414080365505628564
+      Well done! The oxygen cycle continues thanks to you!_29: 1146515190340900948
+      Well done! The oxygen cycle continues thanks to you!_3: 4041317618927949719
+      Well done! The oxygen cycle continues thanks to you!_30: -695557635162199237
+      Well done! The oxygen cycle continues thanks to you!_31: -5191179953424749809
+      Well done! The oxygen cycle continues thanks to you!_32: -2075275222298201295
+      Well done! The oxygen cycle continues thanks to you!_33: 1904717399290595555
+      Well done! The oxygen cycle continues thanks to you!_34: -8460775983989734209
+      Well done! The oxygen cycle continues thanks to you!_35: -4126727720125833749
+      Well done! The oxygen cycle continues thanks to you!_36: 7953895149657438967
+      Well done! The oxygen cycle continues thanks to you!_37: -2032928105022144851
+      Well done! The oxygen cycle continues thanks to you!_38: -9118478091348864684
+      Well done! The oxygen cycle continues thanks to you!_39: 1776691476858514401
+      Well done! The oxygen cycle continues thanks to you!_4: 6746621570303863756
+      Well done! The oxygen cycle continues thanks to you!_40: -3868409166892117006
+      Well done! The oxygen cycle continues thanks to you!_41: -5614910205720297414
+      Well done! The oxygen cycle continues thanks to you!_42: -3709743795088498427
+      Well done! The oxygen cycle continues thanks to you!_43: 5484912304903812249
+      Well done! The oxygen cycle continues thanks to you!_44: -8867201871071596859
+      Well done! The oxygen cycle continues thanks to you!_45: -4829581568452597043
+      Well done! The oxygen cycle continues thanks to you!_5: 8901763825939154376
+      Well done! The oxygen cycle continues thanks to you!_6: -6176879847659302763
+      Well done! The oxygen cycle continues thanks to you!_7: 3984851139622239959
+      Well done! The oxygen cycle continues thanks to you!_8: -989332668772398904
+      Well done! The oxygen cycle continues thanks to you!_9: -4284704339189158905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
