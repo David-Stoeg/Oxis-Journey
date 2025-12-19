@@ -10,12 +10,12 @@ public class GameManager : MonoBehaviour
     [Header("UI References")]
     public TMP_Text scoreText;
     public TMP_Text livesText;
-    public Image scoreFill; // UI Image mit Fill (Type = Filled)
+    public Image scoreFill; // UI Image with Fill (Type = Filled)
 
     [Header("Lives UI")]
-    public Image[] lifeImages;           // Reihenfolge: links -> rechts (oder wie im UI angeordnet)
-    public Sprite lifeFullSprite;       // Sprite für ein vorhandenes Leben
-    public Sprite lifeEmptySprite;      // Sprite für ein verlorenes Leben
+    public Image[] lifeImages;        // order: left -> right
+    public Sprite lifeFullSprite;     // sprite for a life present
+    public Sprite lifeEmptySprite;    // sprite for a life lost
 
     [Header("Panels")]
     public GameObject gameOverPanel;
@@ -24,8 +24,18 @@ public class GameManager : MonoBehaviour
     public TMP_Text victoryScoreText;
 
     [Header("Game Settings")]
-    public int maxLives = 3;           
-    public int requiredScore = 20;      // WIN CONDITION
+    public int maxLives = 3;
+    public int requiredScore = 20;    // WIN CONDITION
+
+    [Header("Audio (SFX)")]
+    public AudioSource sfxSource;     // add an AudioSource on the same object and drag it here (or leave empty to auto-find)
+    public AudioClip scoreClip;
+    public AudioClip loseLifeClip;
+    public AudioClip victoryClip;
+    public AudioClip gameOverClip;
+
+    [Range(0f, 0.2f)]
+    public float pitchRandomness = 0.05f;
 
     private int _score = 0;
     private int _lives;
@@ -42,6 +52,10 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
+
+        // auto-find AudioSource if not assigned
+        if (sfxSource == null)
+            sfxSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -58,7 +72,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        // No timer anymore
         if (_isGameOver || _isVictory) return;
     }
 
@@ -71,6 +84,8 @@ public class GameManager : MonoBehaviour
         _score += amount;
         UpdateScoreText();
 
+        PlaySfx(scoreClip);
+
         if (_score >= requiredScore)
         {
             Victory();
@@ -79,12 +94,17 @@ public class GameManager : MonoBehaviour
 
     public void UpdateLives(int newLives)
     {
-        // Clamp zu 0 .. Anzahl der lifeImages (falls vorhanden) oder maxLives
         int maxDisplay = (lifeImages != null && lifeImages.Length > 0) ? lifeImages.Length : maxLives;
         newLives = Mathf.Clamp(newLives, 0, maxDisplay);
+
+        // âœ… Play lose-life sound whenever lives decrease (but not on Start)
+        if (!_isGameOver && !_isVictory && newLives < _lives)
+        {
+            PlaySfx(loseLifeClip);
+        }
+
         if (livesText != null)
             livesText.text = "Lives: " + newLives;
-
 
         if (lifeImages != null && lifeImages.Length > 0)
         {
@@ -95,20 +115,11 @@ public class GameManager : MonoBehaviour
 
                 if (i < newLives)
                 {
-                    // Leben vorhanden
-                    if (lifeFullSprite != null)
-                    {
-                        img.sprite = lifeFullSprite;
-                        img.enabled = true;
-                    }
-                    else
-                    {
-                        img.enabled = true; // falls Sprite nicht gesetzt: sichtbar lassen
-                    }
+                    if (lifeFullSprite != null) img.sprite = lifeFullSprite;
+                    img.enabled = true;
                 }
                 else
                 {
-                    // Leben verloren
                     if (lifeEmptySprite != null)
                     {
                         img.sprite = lifeEmptySprite;
@@ -116,15 +127,14 @@ public class GameManager : MonoBehaviour
                     }
                     else
                     {
-                        // kein Empty-Sprite: Bild ausblenden
                         img.enabled = false;
                     }
                 }
             }
         }
-            // interne Variable aktualisieren
-            _lives = newLives;
-       }
+
+        _lives = newLives;
+    }
 
     public int InstanceMiss()
     {
@@ -134,9 +144,7 @@ public class GameManager : MonoBehaviour
         UpdateLives(_lives);
 
         if (_lives <= 0)
-        {
             GameOver();
-        }
 
         return _lives;
     }
@@ -146,6 +154,9 @@ public class GameManager : MonoBehaviour
         if (_isGameOver) return;
 
         _isGameOver = true;
+
+        PlaySfx(gameOverClip);
+
         Time.timeScale = 0f;
 
         if (finalScoreText != null)
@@ -162,6 +173,9 @@ public class GameManager : MonoBehaviour
         if (_isVictory) return;
 
         _isVictory = true;
+
+        PlaySfx(victoryClip);
+
         Time.timeScale = 0f;
 
         if (victoryScoreText != null)
@@ -202,12 +216,10 @@ public class GameManager : MonoBehaviour
     private void UpdateScoreText()
     {
         if (scoreText != null)
-            //scoreText.text = "O2: " + _score + "/" + requiredScore;
-            scoreText.text = _score + "/" + requiredScore; //mit neuer ScoreBar
+            scoreText.text = _score + "/" + requiredScore;
 
         if (scoreFill != null)
         {
-            // Schütze vor Division durch 0
             float denom = Mathf.Max(1, requiredScore);
             scoreFill.fillAmount = Mathf.Clamp01((float)_score / denom);
         }
@@ -222,5 +234,21 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("TotalScore", total);
 
         PlayerPrefs.Save();
+    }
+
+    private void PlaySfx(AudioClip clip)
+    {
+        if (clip == null) return;
+
+        if (sfxSource == null)
+        {
+            // If you forgot the AudioSource, fail gracefully
+            Debug.LogWarning("GameManager: No AudioSource assigned for SFX.");
+            return;
+        }
+
+        float basePitch = 1f;
+        sfxSource.pitch = basePitch + Random.Range(-pitchRandomness, pitchRandomness);
+        sfxSource.PlayOneShot(clip, 1f);
     }
 }

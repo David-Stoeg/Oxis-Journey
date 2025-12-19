@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: e6c75a682d6ee2244b9ba95a5d757675
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3316129209315193487
+    second: Keep going! The oxygen cycle needs you!_0
+  - first:
+      213: -5790619934115623048
+    second: Keep going! The oxygen cycle needs you!_1
+  - first:
+      213: -2722066487717257754
+    second: Keep going! The oxygen cycle needs you!_2
+  - first:
+      213: -1119364000392600098
+    second: Keep going! The oxygen cycle needs you!_3
+  - first:
+      213: 1795918073086257882
+    second: Keep going! The oxygen cycle needs you!_4
+  - first:
+      213: -265968804127210718
+    second: Keep going! The oxygen cycle needs you!_5
+  - first:
+      213: 8026804885523485626
+    second: Keep going! The oxygen cycle needs you!_6
+  - first:
+      213: 656527807509180745
+    second: Keep going! The oxygen cycle needs you!_7
+  - first:
+      213: 8581898867638652681
+    second: Keep going! The oxygen cycle needs you!_8
+  - first:
+      213: -5216368314116206895
+    second: Keep going! The oxygen cycle needs you!_9
+  - first:
+      213: 26969921589600456
+    second: Keep going! The oxygen cycle needs you!_10
+  - first:
+      213: 1443421008204106706
+    second: Keep going! The oxygen cycle needs you!_11
+  - first:
+      213: 7191082999375013223
+    second: Keep going! The oxygen cycle needs you!_12
+  - first:
+      213: 3720884411762612656
+    second: Keep going! The oxygen cycle needs you!_13
+  - first:
+      213: 2124559413121708565
+    second: Keep going! The oxygen cycle needs you!_14
+  - first:
+      213: 6944983987345378360
+    second: Keep going! The oxygen cycle needs you!_15
+  - first:
+      213: -8560295678175517384
+    second: Keep going! The oxygen cycle needs you!_16
+  - first:
+      213: 8634592906964543968
+    second: Keep going! The oxygen cycle needs you!_17
+  - first:
+      213: -7624278125554988202
+    second: Keep going! The oxygen cycle needs you!_18
+  - first:
+      213: -792547222713025825
+    second: Keep going! The oxygen cycle needs you!_19
+  - first:
+      213: 4736876212211033394
+    second: Keep going! The oxygen cycle needs you!_20
+  - first:
+      213: -4027999287075421857
+    second: Keep going! The oxygen cycle needs you!_21
+  - first:
+      213: -3098510682970490419
+    second: Keep going! The oxygen cycle needs you!_22
+  - first:
+      213: 3798898398309259657
+    second: Keep going! The oxygen cycle needs you!_23
+  - first:
+      213: -7052138267573041108
+    second: Keep going! The oxygen cycle needs you!_24
+  - first:
+      213: 6381660658430324315
+    second: Keep going! The oxygen cycle needs you!_25
+  - first:
+      213: 116971112128863228
+    second: Keep going! The oxygen cycle needs you!_26
+  - first:
+      213: 513378033278858236
+    second: Keep going! The oxygen cycle needs you!_27
+  - first:
+      213: 8324253694251022594
+    second: Keep going! The oxygen cycle needs you!_28
+  - first:
+      213: -3061284784262130764
+    second: Keep going! The oxygen cycle needs you!_29
+  - first:
+      213: -9180106967036550899
+    second: Keep going! The oxygen cycle needs you!_30
+  - first:
+      213: 1948898901205573365
+    second: Keep going! The oxygen cycle needs you!_31
+  - first:
+      213: 5741533301552542654
+    second: Keep going! The oxygen cycle needs you!_32
+  - first:
+      213: 4959667820337801439
+    second: Keep going! The oxygen cycle needs you!_33
+  - first:
+      213: -3490706471134136285
+    second: Keep going! The oxygen cycle needs you!_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 975
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d8871cd0ebaf1d0800000000000000
+      internalID: -3316129209315193487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 190
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f0eb599d593afa0800000000000000
+      internalID: -5790619934115623048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1e9893f6493ad0800000000000000
+      internalID: -2722066487717257754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 140
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed52d3e4f583770f0800000000000000
+      internalID: -1119364000392600098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 140
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaa208e8f16ce810800000000000000
+      internalID: 1795918073086257882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 140
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22389a428c61f4cf0800000000000000
+      internalID: -265968804127210718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 140
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35ffaf380f46f60800000000000000
+      internalID: 8026804885523485626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 119
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94130cfff847c1900800000000000000
+      internalID: 656527807509180745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 118
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fcdef1d87091770800000000000000
+      internalID: 8581898867638652681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 140
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de0083e7acbb97b0800000000000000
+      internalID: -5216368314116206895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 140
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e7f33001df5000800000000000000
+      internalID: 26969921589600456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 140
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db875762cf080410800000000000000
+      internalID: 1443421008204106706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 118
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765291053ebdbc360800000000000000
+      internalID: 7191082999375013223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 140
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9166d88ac33a330800000000000000
+      internalID: 3720884411762612656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_14
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 140
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f453a783fb7d10800000000000000
+      internalID: 2124559413121708565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_15
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 140
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c4f70f32a816060800000000000000
+      internalID: 6944983987345378360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_16
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 119
+        width: 100
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83569026f68b33980800000000000000
+      internalID: -8560295678175517384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 118
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9aab7308c34d770800000000000000
+      internalID: 8634592906964543968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_18
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 140
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b8381a07f113690800000000000000
+      internalID: -7624278125554988202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 140
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdab772008e4005f0800000000000000
+      internalID: -792547222713025825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 20
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23526d561d3ccb140800000000000000
+      internalID: 4736876212211033394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_21
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51c75a5dfba918c0800000000000000
+      internalID: -4027999287075421857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 20
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc97ac053f0eff4d0800000000000000
+      internalID: -3098510682970490419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 20
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989160147f568b430800000000000000
+      internalID: 3798898398309259657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_24
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 20
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28ce560c95c12e90800000000000000
+      internalID: -7052138267573041108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_25
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 20
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e23deae86309850800000000000000
+      internalID: 6381660658430324315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_26
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 20
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5c635b909f9100800000000000000
+      internalID: 116971112128863228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_27
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 20
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3331de992ef1700800000000000000
+      internalID: 513378033278858236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_28
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 20
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209b01291a0b58370800000000000000
+      internalID: 8324253694251022594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_29
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 20
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b35fb545b12485d0800000000000000
+      internalID: -3061284784262130764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_30
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01a2bd0a55b99080800000000000000
+      internalID: -9180106967036550899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_31
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 20
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fed1859931eb0b10800000000000000
+      internalID: 1948898901205573365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_32
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 20
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb37d192e160eaf40800000000000000
+      internalID: 5741533301552542654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_33
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 40
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8ab2bea9744d440800000000000000
+      internalID: 4959667820337801439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keep going! The oxygen cycle needs you!_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 20
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32874e485f48e8fc0800000000000000
+      internalID: -3490706471134136285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0213664b12e14e04b97409c25fdb121b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Keep going! The oxygen cycle needs you!_0: -3316129209315193487
+      Keep going! The oxygen cycle needs you!_1: -5790619934115623048
+      Keep going! The oxygen cycle needs you!_10: 26969921589600456
+      Keep going! The oxygen cycle needs you!_11: 1443421008204106706
+      Keep going! The oxygen cycle needs you!_12: 7191082999375013223
+      Keep going! The oxygen cycle needs you!_13: 3720884411762612656
+      Keep going! The oxygen cycle needs you!_14: 2124559413121708565
+      Keep going! The oxygen cycle needs you!_15: 6944983987345378360
+      Keep going! The oxygen cycle needs you!_16: -8560295678175517384
+      Keep going! The oxygen cycle needs you!_17: 8634592906964543968
+      Keep going! The oxygen cycle needs you!_18: -7624278125554988202
+      Keep going! The oxygen cycle needs you!_19: -792547222713025825
+      Keep going! The oxygen cycle needs you!_2: -2722066487717257754
+      Keep going! The oxygen cycle needs you!_20: 4736876212211033394
+      Keep going! The oxygen cycle needs you!_21: -4027999287075421857
+      Keep going! The oxygen cycle needs you!_22: -3098510682970490419
+      Keep going! The oxygen cycle needs you!_23: 3798898398309259657
+      Keep going! The oxygen cycle needs you!_24: -7052138267573041108
+      Keep going! The oxygen cycle needs you!_25: 6381660658430324315
+      Keep going! The oxygen cycle needs you!_26: 116971112128863228
+      Keep going! The oxygen cycle needs you!_27: 513378033278858236
+      Keep going! The oxygen cycle needs you!_28: 8324253694251022594
+      Keep going! The oxygen cycle needs you!_29: -3061284784262130764
+      Keep going! The oxygen cycle needs you!_3: -1119364000392600098
+      Keep going! The oxygen cycle needs you!_30: -9180106967036550899
+      Keep going! The oxygen cycle needs you!_31: 1948898901205573365
+      Keep going! The oxygen cycle needs you!_32: 5741533301552542654
+      Keep going! The oxygen cycle needs you!_33: 4959667820337801439
+      Keep going! The oxygen cycle needs you!_34: -3490706471134136285
+      Keep going! The oxygen cycle needs you!_4: 1795918073086257882
+      Keep going! The oxygen cycle needs you!_5: -265968804127210718
+      Keep going! The oxygen cycle needs you!_6: 8026804885523485626
+      Keep going! The oxygen cycle needs you!_7: 656527807509180745
+      Keep going! The oxygen cycle needs you!_8: 8581898867638652681
+      Keep going! The oxygen cycle needs you!_9: -5216368314116206895
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
