@@ -151,12 +151,14 @@ MonoBehaviour:
   textBox: {fileID: 1285262077}
   nextButtonObject: {fileID: 0}
   pages:
-  - "There is only a little CO2 in the air (about 0.04%).Plants can help lower too
-    much CO2 because they use it to grow. But plants can get hurt by things like:\_"
-  - "-not enough water or too much water\_\n-not enough sunlight\_\n-bugs and plant
-    diseases\_\n-dirty air or pollution\_"
-  - "That\u2019s why we should take care of plants and nature!\n<b><color=#2E7D32>Let's
-    see how Flora will transform carbon dioxide into oxygen.</color></b>"
+  - The oxygen plants make goes into the air. People and animals breathe that oxygen
+    into their lungs. Tiny red blood cells pick up the oxygen and carry it to every
+    part of the body, like the brain and muscles, so they can work and play.
+  - 'When our cells use the oxygen, they make  carbon dioxide (CO2) as a waste gas.
+    We breathe that CO2 out and then plants can use it again. '
+  - "That\u2019s the carbon oxygen cycle: plants make O2 for us, we 'make' CO2, and
+    the cycle keeps going.\_\n<b><color=blue>Good job! Now you know everything about
+    the CO2 cycle!</color></b>"
   lettersPerSecond: 60
   playOnStart: 1
   nextSceneName: SunlightRhythm
@@ -844,7 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8774196473400557627, guid: db430047ad7dd8e40b2540292b2b0cff, type: 3}
+  m_Sprite: {fileID: 6516398672066997507, guid: 384aa10057f955346bb4cc8f2662f0ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

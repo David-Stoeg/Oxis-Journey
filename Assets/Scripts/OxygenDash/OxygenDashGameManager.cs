@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class OxygenDashGameManager : MonoBehaviour
 {
@@ -10,10 +11,17 @@ public class OxygenDashGameManager : MonoBehaviour
     public int maxLives = 3;
     private int lives;
 
-    [Header("UI")]
+    [Header("Lives UI - Text (optional)")]
+    public TMP_Text livesText;
+
+    [Header("Lives UI - Hearts")]
+    public Image[] lifeImages;       // order: left -> right
+    public Sprite lifeFullSprite;
+    public Sprite lifeEmptySprite;
+
+    [Header("Panels")]
     public GameObject gameOverPanel;
     public GameObject victoryPanel;
-    public TMP_Text livesText;
 
     private bool gameEnded = false;
 
@@ -29,8 +37,10 @@ public class OxygenDashGameManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
+
         lives = maxLives;
-        UpdateLivesUI();
+        UpdateLivesUI(lives);
 
         if (gameOverPanel) gameOverPanel.SetActive(false);
         if (victoryPanel) victoryPanel.SetActive(false);
@@ -44,12 +54,10 @@ public class OxygenDashGameManager : MonoBehaviour
         if (gameEnded) return;
 
         lives--;
-        UpdateLivesUI();
+        UpdateLivesUI(lives);
 
         if (lives <= 0)
-        {
             GameOver();
-        }
     }
 
     // -------------------------------
@@ -63,40 +71,81 @@ public class OxygenDashGameManager : MonoBehaviour
         if (victoryPanel)
             victoryPanel.SetActive(true);
 
-        Time.timeScale = 0f;   // FREEZE GAME TOO
+        Time.timeScale = 0f;
     }
 
     // -------------------------------
     void GameOver()
     {
+        if (gameEnded) return;
         gameEnded = true;
 
         if (gameOverPanel)
             gameOverPanel.SetActive(true);
 
-        Time.timeScale = 0f;   // FREEZE GAME
-    }
-    
-    private void UpdateLivesUI()
-    {
-        if (livesText)
-            livesText.text = "Lives: " + lives;
+        Time.timeScale = 0f;
     }
 
-    public bool IsGameEnded()
+    // -------------------------------
+    // HEART + TEXT UI UPDATE
+    // -------------------------------
+    private void UpdateLivesUI(int newLives)
     {
-        return gameEnded;
+        // Clamp to display count if hearts exist, otherwise to maxLives
+        int maxDisplay = (lifeImages != null && lifeImages.Length > 0) ? lifeImages.Length : maxLives;
+        newLives = Mathf.Clamp(newLives, 0, maxDisplay);
+
+        // optional text
+        if (livesText)
+            livesText.text = "Lives: " + newLives;
+
+        // hearts
+        if (lifeImages != null && lifeImages.Length > 0)
+        {
+            for (int i = 0; i < lifeImages.Length; i++)
+            {
+                Image img = lifeImages[i];
+                if (img == null) continue;
+
+                bool hasLife = i < newLives;
+
+                if (hasLife)
+                {
+                    if (lifeFullSprite != null) img.sprite = lifeFullSprite;
+                    img.enabled = true;
+                }
+                else
+                {
+                    if (lifeEmptySprite != null)
+                    {
+                        img.sprite = lifeEmptySprite;
+                        img.enabled = true;
+                    }
+                    else
+                    {
+                        img.enabled = false;
+                    }
+                }
+            }
+        }
+
+        lives = newLives;
     }
-    
+
+    public bool IsGameEnded() => gameEnded;
+
+    // -------------------------------
+    // Buttons
+    // -------------------------------
     public void RestartLevel()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-    
+
     public void BackToMainMenu()
     {
-        Time.timeScale = 1f;   // unfreeze the game
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 }

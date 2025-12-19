@@ -151,12 +151,16 @@ MonoBehaviour:
   textBox: {fileID: 1285262077}
   nextButtonObject: {fileID: 0}
   pages:
-  - "There is only a little CO2 in the air (about 0.04%).Plants can help lower too
-    much CO2 because they use it to grow. But plants can get hurt by things like:\_"
-  - "-not enough water or too much water\_\n-not enough sunlight\_\n-bugs and plant
-    diseases\_\n-dirty air or pollution\_"
-  - "That\u2019s why we should take care of plants and nature!\n<b><color=#2E7D32>Let's
-    see how Flora will transform carbon dioxide into oxygen.</color></b>"
+  - "When sunlight hits a plant, it uses a trick called\_photosynthesis. The plant
+    takes CO2 from the air and water from the soil, uses the sun\u2019s energy, and
+    makes two important things:\_oxygen (O2)\_and\_glucose\_(a kind of sugar). "
+  - "Oxygen is what people and animals need to breathe it makes about 21% of the
+    air. Glucose is the plant\u2019s food; it gives the plant energy to grow leaves,
+    roots, and flowers. "
+  - 'So sunlight, water and CO2 together let the plant make food and oxygen.
+
+    <b><color=red>Now
+    let''s see how oxygen turns back into carbon dioxide.</color></b>'
   lettersPerSecond: 60
   playOnStart: 1
   nextSceneName: SunlightRhythm
@@ -844,7 +848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8774196473400557627, guid: db430047ad7dd8e40b2540292b2b0cff, type: 3}
+  m_Sprite: {fileID: -4589822343883315242, guid: 3bbb458434c6fe8488fe55c2d330dc99, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

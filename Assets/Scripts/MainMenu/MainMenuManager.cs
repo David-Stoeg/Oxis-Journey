@@ -10,7 +10,7 @@ public class MainMenuManager : MonoBehaviour
         PlayerPrefs.SetInt("LastLevelScore", 0);
         PlayerPrefs.Save();
 
-        SceneManager.LoadScene("FeedThePlant"); // make sure this matches your scene name exactly
+        SceneManager.LoadScene("FTP-Tutorial"); // make sure this matches your scene name exactly
     }
 
     // Called by the Exit button
