@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SunlightRhythm.unity
     guid: 4aaa0e19f2039404f9ad51873caf6087
   - enabled: 1
+    path: Assets/Scenes/SR-Info.unity
+    guid: 390bc53679cfa0342948ce69e5cf36ea
+  - enabled: 1
     path: Assets/Scenes/OD-Tutorial.unity
     guid: 097cc29c3e7bd054fa3aaf6d230a7b72
   - enabled: 1

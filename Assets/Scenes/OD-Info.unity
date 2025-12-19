@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InfoScreenTyper
   textBox: {fileID: 1285262077}
-  nextButtonObject: {fileID: 0}
+  nextButtonObject: {fileID: 258170674}
   pages:
   - The oxygen plants make goes into the air. People and animals breathe that oxygen
     into their lungs. Tiny red blood cells pick up the oxygen and carry it to every
@@ -161,7 +161,7 @@ MonoBehaviour:
     the CO2 cycle!</color></b>"
   lettersPerSecond: 60
   playOnStart: 1
-  nextSceneName: SunlightRhythm
+  nextSceneName: EndScene
 --- !u!4 &20243442
 Transform:
   m_ObjectHideFlags: 0
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 258170677}
   - component: {fileID: 258170676}
   m_Layer: 5
-  m_Name: Button
+  m_Name: NextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
