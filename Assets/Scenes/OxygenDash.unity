@@ -5810,8 +5810,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175844197}
-  - component: {fileID: 1175844196}
-  - component: {fileID: 1175844195}
   - component: {fileID: 1175844198}
   - component: {fileID: 1175844194}
   - component: {fileID: 1175844193}
@@ -5941,41 +5939,9 @@ SpriteRenderer:
   m_Size: {x: 4.65, y: 4.66}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1175844195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175844191}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521170a5382ef714b9db3359060ec058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
-  speed: 5
-  isWall: 0
---- !u!114 &1175844196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175844191}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54f11efdcccfdf3489b9e4a31c5f8b59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  obstaclePrefab: {fileID: 8648919637531779062, guid: ab6940d2edf2ee94fb3f0844ebf14082, type: 3}
-  spawnInterval: 1.5
-  stopSpawningAt: 26
-  boostWallAt: 15
-  columnX: 10
-  laneSpacing: 1.2
 --- !u!4 &1175844197
 Transform:
   m_ObjectHideFlags: 0
@@ -6376,7 +6342,6 @@ GameObject:
   - component: {fileID: 1315493456}
   - component: {fileID: 1315493460}
   - component: {fileID: 1315493455}
-  - component: {fileID: 1315493454}
   - component: {fileID: 1315493459}
   m_Layer: 0
   m_Name: Player
@@ -6385,21 +6350,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1315493454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315493453}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0107b35144eda45ba0796d4c64edec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 5
-  invincibleDuration: 3
-  maxLives: 3
 --- !u!58 &1315493455
 CircleCollider2D:
   m_ObjectHideFlags: 0
