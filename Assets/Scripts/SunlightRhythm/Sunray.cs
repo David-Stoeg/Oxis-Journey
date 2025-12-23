@@ -6,17 +6,27 @@ public class Sunray : MonoBehaviour
     public Vector3 direction;
     public SunraySpawner spawner;
 
-    private bool resolved = false; // already scored/errored?
+    private bool resolved = false;
+
+    // pulse target
+    private ScalePulse pulseTarget;
+
+    // NEW
+    private ShrinkAndDestroy shrink;
+
+    public void SetPulseTarget(ScalePulse target) => pulseTarget = target;
+
+    void Awake()
+    {
+        shrink = GetComponent<ShrinkAndDestroy>(); // should be on prefab
+    }
 
     void Update()
     {
-        // Straight-line movement
         transform.position += direction * speed * Time.deltaTime;
 
-        // Miss only when leaving screen area
-        if (!resolved && transform.position.magnitude > spawner.despawnRadius)
+        if (!resolved && spawner != null && transform.position.magnitude > spawner.despawnRadius)
         {
-            // Only penalize if this object hasn't already caused an error
             if (!spawner.hasPenalizedThisObject)
             {
                 GameManager.Instance.InstanceMiss();
@@ -24,20 +34,51 @@ public class Sunray : MonoBehaviour
             }
 
             resolved = true;
-            Die();
+            DieAnimated();
         }
     }
 
     public void Absorb()
     {
         if (resolved) return;
-
         resolved = true;
+
         GameManager.Instance.AddScore(1);
-        Die();
+
+        if (pulseTarget != null)
+            pulseTarget.Pulse();
+
+        DieAnimated(); // ✅ shrink out on score
     }
 
-    void Die()
+    // Call this for any error case too if you have one
+    public void Error()
+    {
+        if (resolved) return;
+        resolved = true;
+
+        GameManager.Instance.InstanceMiss(); // if that's your “error” for this minigame
+        DieAnimated(); // ✅ shrink out on error
+    }
+
+    void DieAnimated()
+    {
+        // If no shrink script, fallback
+        if (shrink == null)
+        {
+            DieImmediate();
+            return;
+        }
+
+        // shrink, then release, then destroy is already handled by ShrinkAndDestroy
+        shrink.Play(onComplete: () =>
+        {
+            if (spawner != null)
+                spawner.ReleaseObject();
+        });
+    }
+
+    void DieImmediate()
     {
         if (spawner != null)
             spawner.ReleaseObject();

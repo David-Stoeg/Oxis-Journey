@@ -87,7 +87,7 @@ public class InfoScreenTyper : MonoBehaviour
         for (int i = 0; i < fullText.Length; i++)
         {
             textBox.text += fullText[i];
-            yield return new WaitForSeconds(delay);
+            yield return new WaitForSecondsRealtime(delay); // ✅ ignores Time.timeScale
         }
 
         _isTyping = false;

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 48dccee367cf4c1448dd7171c67d1ab6
+guid: 7a3f5c5df7173964e848bbafa7cb5cfc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7953179175353747179
-    second: FTP-Tutorial_0
+      213: 4761519145361947937
+    second: O2 hurt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FTP-Tutorial_0
+      name: O2 hurt_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 445
+        height: 445
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51971028da1a0a190800000000000000
-      internalID: -7953179175353747179
+      spriteID: 12d35826f60541240800000000000000
+      internalID: 4761519145361947937
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FTP-Tutorial_0: -7953179175353747179
+      O2 hurt_0: 4761519145361947937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

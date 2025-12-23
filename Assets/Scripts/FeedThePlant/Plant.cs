@@ -5,9 +5,16 @@ public class Plant : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth;
 
+    [Header("Minigame Feedback")]
+    public PlantMinigameFeedback feedback;
+
     private void Awake()
     {
         currentHealth = maxHealth;
+
+        // ✅ auto-grab if you forgot to drag it
+        if (feedback == null)
+            feedback = GetComponent<PlantMinigameFeedback>();
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -20,27 +27,34 @@ public class Plant : MonoBehaviour
 
         if (falling == null) return;
 
-        // DRAGGING → check if auto-collect CO2
         if (drag != null && drag.IsDragging)
         {
             if (falling.type == FallingType.Good)
             {
-                falling.ProcessAtPlant(this); // auto score
+                falling.ProcessAtPlant(this);
                 return;
             }
         }
 
-        // NOT DRAGGING → normal process
         if (drag == null || !drag.IsDragging)
         {
             falling.ProcessAtPlant(this);
         }
     }
 
+    public void OnFedGood(int scoreAmount = 1)
+    {
+        if (feedback != null)
+            feedback.Grow(scoreAmount);
+    }
+
     public void TakeDamage(int dmg)
     {
         currentHealth -= dmg;
         GameManager.Instance.UpdateLives(currentHealth);
+
+        if (feedback != null)
+            feedback.Error(); // ✅ flash red on error
 
         if (currentHealth <= 0)
             GameManager.Instance.GameOver();

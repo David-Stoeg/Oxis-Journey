@@ -16,9 +16,17 @@ public class FallingObject : MonoBehaviour
         _processed = true;
 
         if (type == FallingType.Good)
+        {
             GameManager.Instance.AddScore(scoreValue);
+
+            // ✅ grow plant a little on score
+            plant.OnFedGood(scoreValue);
+        }
         else
+        {
+            // ✅ this already flashes red (we added it in TakeDamage)
             plant.TakeDamage(damageValue);
+        }
 
         Destroy(gameObject);
     }

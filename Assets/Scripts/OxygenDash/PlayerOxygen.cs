@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerOxygen : MonoBehaviour
 {
@@ -6,93 +7,190 @@ public class PlayerOxygen : MonoBehaviour
     public float moveSpeed = 5f;
     public float verticalLimit = 4f;
 
+    [Header("Mouse Follow")]
+    public float dragSpeed = 2f;        // ✅ slower drag follow
+    public float dragDeadZone = 0.1f;
+
+    [Header("Sprites / Animation")]
+    public SpriteRenderer spriteRenderer;   // drag your SpriteRenderer (or leave empty to auto-find)
+    public Sprite idleSprite;
+
+    public Sprite[] upFrames;               // sliced sprites from "drag up" sheet
+    public Sprite[] downFrames;             // sliced sprites from "drag down" sheet
+
+    public float animFps = 12f;
+
+    [Header("Damage Look")]
+    public Sprite hurtSprite;
+    public float hurtDuration = 0.25f;
+
     private Rigidbody2D rb;
-    
-    // Shield (you may remove this if unused)
+
+    // Shield
     private bool isShielded = false;
     private float invincibilityTimer = 0f;
-    
-    [Header("Drag Settings")]
-    public float dragDeadZone = 0.1f;     // mouse must move this far to trigger motion
-    public float dragSmooth = 10f;        // smoothing multiplier
+
+    // input state
+    private int _keyboardVertical = 0;
+    private bool _mouseHeld = false;
+    private float _mouseTargetY = 0f;
+
+    // animation state
+    private enum AnimState { Idle, Up, Down, Hurt }
+    private AnimState _state = AnimState.Idle;
+
+    private Sprite[] _currentFrames;
+    private int _frameIndex = 0;
+    private float _frameTimer = 0f;
+
+    private float _hurtTimer = 0f;
+
+    // last movement direction from physics step (-1,0,+1)
+    private int _moveDir = 0;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+
+        // good defaults if you forgot
+        if (idleSprite == null && spriteRenderer != null)
+            idleSprite = spriteRenderer.sprite;
     }
 
     void Update()
     {
-        float vertical = 0f;
-
-        // ---------------------------------
-        // KEYBOARD SUPPORT (optional)
-        // ---------------------------------
-        if (UnityEngine.InputSystem.Keyboard.current != null)
+        // ------- keyboard -------
+        _keyboardVertical = 0;
+        if (Keyboard.current != null)
         {
-            if (UnityEngine.InputSystem.Keyboard.current.wKey.isPressed ||
-                UnityEngine.InputSystem.Keyboard.current.upArrowKey.isPressed)
-                vertical = 1;
-
-            else if (UnityEngine.InputSystem.Keyboard.current.sKey.isPressed ||
-                     UnityEngine.InputSystem.Keyboard.current.downArrowKey.isPressed)
-                vertical = -1;
+            if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed) _keyboardVertical = 1;
+            else if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed) _keyboardVertical = -1;
         }
 
-        // ---------------------------------
-        // FAST DRAG FOLLOW (NO JITTER)
-        // ---------------------------------
-        if (UnityEngine.InputSystem.Mouse.current != null &&
-            UnityEngine.InputSystem.Mouse.current.leftButton.isPressed)
+        // ------- mouse -------
+        _mouseHeld = Mouse.current != null && Mouse.current.leftButton.isPressed;
+        if (_mouseHeld && Camera.main != null)
         {
-            Vector3 mouse = Camera.main.ScreenToWorldPoint(
-                UnityEngine.InputSystem.Mouse.current.position.ReadValue()
-            );
-            mouse.z = 0;
-
-            float delta = mouse.y - transform.position.y;
-
-            // Apply deadzone to avoid jitter
-            if (Mathf.Abs(delta) > dragDeadZone)
-            {
-                // Move toward mouse at full moveSpeed, no smoothing delay
-                vertical = Mathf.Sign(delta);
-            }
-            else
-            {
-                vertical = 0;
-            }
+            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            _mouseTargetY = mouseWorld.y;
         }
 
-        // ---------------------------------
-        // APPLY MOVEMENT
-        // ---------------------------------
-        Vector2 newPos = rb.position + Vector2.up * vertical * moveSpeed * Time.deltaTime;
-        newPos.y = Mathf.Clamp(newPos.y, -verticalLimit, verticalLimit);
-        rb.MovePosition(newPos);
-
-        if (invincibilityTimer > 0)
+        if (invincibilityTimer > 0f)
             invincibilityTimer -= Time.deltaTime;
+
+        // ------- hurt timer + animation update -------
+        if (_hurtTimer > 0f) _hurtTimer -= Time.deltaTime;
+
+        UpdateSpriteAnimation(Time.deltaTime);
     }
 
-    // ---------------------------------------------------------
-    //     MERGED TRIGGER HANDLING (ONLY ONE FUNCTION NOW)
-    // ---------------------------------------------------------
+    void FixedUpdate()
+    {
+        float y = rb.position.y;
+        float newY = y;
+
+        if (_mouseHeld)
+        {
+            float targetY = Mathf.Clamp(_mouseTargetY, -verticalLimit, verticalLimit);
+            float delta = targetY - y;
+
+            if (Mathf.Abs(delta) > dragDeadZone)
+                newY = Mathf.MoveTowards(y, targetY, dragSpeed * Time.fixedDeltaTime);
+        }
+        else
+        {
+            newY = y + _keyboardVertical * moveSpeed * Time.fixedDeltaTime;
+            newY = Mathf.Clamp(newY, -verticalLimit, verticalLimit);
+        }
+
+        float dy = newY - y;
+        if (Mathf.Abs(dy) < 0.0001f) _moveDir = 0;
+        else _moveDir = (dy > 0f) ? 1 : -1;
+
+        rb.MovePosition(new Vector2(rb.position.x, newY));
+    }
+
+    private void UpdateSpriteAnimation(float dt)
+    {
+        if (spriteRenderer == null) return;
+
+        // Hurt overrides everything
+        if (_hurtTimer > 0f && hurtSprite != null)
+        {
+            if (_state != AnimState.Hurt)
+            {
+                _state = AnimState.Hurt;
+                spriteRenderer.sprite = hurtSprite;
+            }
+            return;
+        }
+
+        // choose state based on movement
+        if (_moveDir > 0 && upFrames != null && upFrames.Length > 0)
+            SetAnim(AnimState.Up, upFrames);
+        else if (_moveDir < 0 && downFrames != null && downFrames.Length > 0)
+            SetAnim(AnimState.Down, downFrames);
+        else
+        {
+            _state = AnimState.Idle;
+            _currentFrames = null;
+            _frameIndex = 0;
+            _frameTimer = 0f;
+            if (idleSprite != null) spriteRenderer.sprite = idleSprite;
+            return;
+        }
+
+        // advance flipbook frames
+        if (_currentFrames == null || _currentFrames.Length == 0) return;
+
+        float frameTime = 1f / Mathf.Max(1f, animFps);
+        _frameTimer += dt;
+
+        while (_frameTimer >= frameTime)
+        {
+            _frameTimer -= frameTime;
+            _frameIndex = (_frameIndex + 1) % _currentFrames.Length;
+            spriteRenderer.sprite = _currentFrames[_frameIndex];
+        }
+    }
+
+    private void SetAnim(AnimState state, Sprite[] frames)
+    {
+        if (_state == state && _currentFrames == frames) return;
+
+        _state = state;
+        _currentFrames = frames;
+        _frameIndex = 0;
+        _frameTimer = 0f;
+
+        if (spriteRenderer != null && _currentFrames != null && _currentFrames.Length > 0)
+            spriteRenderer.sprite = _currentFrames[0];
+    }
+
+    private void TriggerHurt()
+    {
+        _hurtTimer = hurtDuration;
+        // sprite gets set in UpdateSpriteAnimation
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // ====== BACTERIA (Damage) ======
         if (other.CompareTag("Obstacle"))
         {
             if (isShielded)
             {
-                // Shield takes the hit
                 isShielded = false;
                 invincibilityTimer = 1f;
             }
             else if (invincibilityTimer <= 0f)
             {
-                // Lose a life (NEW GameManager)
-                OxygenDashGameManager.Instance.LoseLife();
+                OxygenDashGameManager.Instance.LoseLife(); // ✅ flashes red now
+                TriggerHurt();                              // ✅ hurt sprite
                 invincibilityTimer = 1f;
             }
 
@@ -100,7 +198,6 @@ public class PlayerOxygen : MonoBehaviour
             return;
         }
 
-        // ====== BOOST (optional) ======
         if (other.CompareTag("Boost"))
         {
             ActivateShield();
@@ -108,7 +205,6 @@ public class PlayerOxygen : MonoBehaviour
             return;
         }
 
-        // ====== END CELL (Victory) ======
         if (other.CompareTag("Finish"))
         {
             OxygenDashGameManager.Instance.Victory();
@@ -116,16 +212,11 @@ public class PlayerOxygen : MonoBehaviour
         }
     }
 
-    // Optional shield logic
     void ActivateShield()
     {
         isShielded = true;
         invincibilityTimer = 0f;
-        // TODO: visual effect
     }
 
-    public bool IsShielded()
-    {
-        return isShielded;
-    }
+    public bool IsShielded() => isShielded;
 }

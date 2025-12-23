@@ -22,9 +22,12 @@ public class SunraySpawner : MonoBehaviour
     public float firstRayDelay = 2f;
     public float firstRaySpeed = 5f;
 
+    [Header("Pulse Feedback (Scene Object)")]
+    public ScalePulse pulseTarget; // drag your leaf/plant object here (with ScalePulse)
+
     [HideInInspector] public GameObject activeObject;
 
-    // 👇 NEW: only one heart loss per object
+    // only one heart loss per object
     [HideInInspector] public bool hasPenalizedThisObject = false;
 
     void Start()
@@ -68,6 +71,9 @@ public class SunraySpawner : MonoBehaviour
         ray.speed = firstRaySpeed;
         ray.spawner = this;
 
+        // NEW: assign pulse target
+        ray.SetPulseTarget(pulseTarget);
+
         hasPenalizedThisObject = false; // reset penalty budget
     }
 
@@ -101,6 +107,9 @@ public class SunraySpawner : MonoBehaviour
             ray.direction = direction;
             ray.speed = speedStages[Random.Range(0, speedStages.Length)];
             ray.spawner = this;
+
+            // NEW: assign pulse target
+            ray.SetPulseTarget(pulseTarget);
         }
 
         hasPenalizedThisObject = false; // new object, fresh mistake budget

@@ -8,14 +8,22 @@ public class Pollution : MonoBehaviour
 
     private bool resolved = false;
 
+    private ShrinkAndDestroy shrink;
+
+    void Awake()
+    {
+        shrink = GetComponent<ShrinkAndDestroy>(); // add this component on prefab
+    }
+
     void Update()
     {
         transform.position += direction * speed * Time.deltaTime;
 
         // Leaving screen → just despawn, no penalty
-        if (transform.position.magnitude > spawner.despawnRadius)
+        if (spawner != null && transform.position.magnitude > spawner.despawnRadius)
         {
-            Die();
+            resolved = true;
+            DieAnimated(); // ✅ shrink out (optional, looks nice)
         }
     }
 
@@ -25,17 +33,32 @@ public class Pollution : MonoBehaviour
         if (resolved) return;
 
         // Only penalize once per object
-        if (!spawner.hasPenalizedThisObject)
+        if (spawner != null && !spawner.hasPenalizedThisObject)
         {
             GameManager.Instance.InstanceMiss();
             spawner.hasPenalizedThisObject = true;
         }
 
         resolved = true;
-        Die();
+        DieAnimated(); // ✅ shrink out on error
     }
 
-    void Die()
+    void DieAnimated()
+    {
+        if (shrink == null)
+        {
+            DieImmediate();
+            return;
+        }
+
+        shrink.Play(onComplete: () =>
+        {
+            if (spawner != null)
+                spawner.ReleaseObject();
+        });
+    }
+
+    void DieImmediate()
     {
         if (spawner != null)
             spawner.ReleaseObject();

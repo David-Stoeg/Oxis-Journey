@@ -41,6 +41,9 @@ public class GameManager : MonoBehaviour
     private int _lives;
     private bool _isGameOver = false;
     private bool _isVictory = false;
+    
+    [Header("Damage Feedback")]
+    public ScreenFlash damageFlash;
 
     // ---------- UNITY LIFECYCLE ----------
 
@@ -132,6 +135,12 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+        
+        if (!_isGameOver && !_isVictory && newLives < _lives)
+        {
+            if (damageFlash != null)
+                damageFlash.Flash();
+        }
 
         _lives = newLives;
     }
@@ -140,8 +149,8 @@ public class GameManager : MonoBehaviour
     {
         if (_isGameOver || _isVictory) return _lives;
 
-        _lives--;
-        UpdateLives(_lives);
+        int newLives = _lives - 1;   // compute first
+        UpdateLives(newLives);       // UpdateLives detects decrease correctly
 
         if (_lives <= 0)
             GameOver();

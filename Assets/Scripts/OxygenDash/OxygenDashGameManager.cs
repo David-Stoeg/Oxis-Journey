@@ -22,6 +22,19 @@ public class OxygenDashGameManager : MonoBehaviour
     [Header("Panels")]
     public GameObject gameOverPanel;
     public GameObject victoryPanel;
+    
+    // add near your other headers
+    [Header("Damage Feedback")]
+    public ScreenFlash damageFlash;
+    
+    [Header("Audio (SFX)")]
+    public AudioSource sfxSource;      // put an AudioSource on this object and drag it here (or leave empty to auto-find)
+    public AudioClip damageClip;
+    public AudioClip victoryClip;
+    public AudioClip gameOverClip;
+
+    [Range(0f, 0.2f)]
+    public float pitchRandomness = 0.05f;
 
     private bool gameEnded = false;
 
@@ -33,6 +46,9 @@ public class OxygenDashGameManager : MonoBehaviour
             return;
         }
         Instance = this;
+
+        if (sfxSource == null)
+            sfxSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -56,6 +72,12 @@ public class OxygenDashGameManager : MonoBehaviour
         lives--;
         UpdateLivesUI(lives);
 
+        // ✅ sound + flash
+        PlaySfx(damageClip);
+
+        if (damageFlash != null)
+            damageFlash.Flash();
+
         if (lives <= 0)
             GameOver();
     }
@@ -68,6 +90,8 @@ public class OxygenDashGameManager : MonoBehaviour
         if (gameEnded) return;
         gameEnded = true;
 
+        PlaySfx(victoryClip);
+
         if (victoryPanel)
             victoryPanel.SetActive(true);
 
@@ -79,6 +103,8 @@ public class OxygenDashGameManager : MonoBehaviour
     {
         if (gameEnded) return;
         gameEnded = true;
+
+        PlaySfx(gameOverClip);
 
         if (gameOverPanel)
             gameOverPanel.SetActive(true);
@@ -147,5 +173,19 @@ public class OxygenDashGameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+    }
+    
+    private void PlaySfx(AudioClip clip)
+    {
+        if (clip == null) return;
+
+        if (sfxSource == null)
+        {
+            Debug.LogWarning("OxygenDashGameManager: No AudioSource assigned for SFX.");
+            return;
+        }
+
+        sfxSource.pitch = 1f + Random.Range(-pitchRandomness, pitchRandomness);
+        sfxSource.PlayOneShot(clip, 1f);
     }
 }

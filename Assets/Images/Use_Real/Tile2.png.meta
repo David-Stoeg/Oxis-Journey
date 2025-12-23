@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c6da62cb298ae804584bef0d43faea4b
+guid: c581bccda28bebd4688986e814bd206c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3469247105803239112
-    second: Tutorial_Stage1 (4)_0
+      213: 2436689576485346197
+    second: Tile2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tutorial_Stage1 (4)_0
+      name: Tile2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
+        width: 2061
         height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce3473acdd352030800000000000000
-      internalID: 3469247105803239112
+      spriteID: 59b5e4a724cd0d120800000000000000
+      internalID: 2436689576485346197
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tutorial_Stage1 (4)_0: 3469247105803239112
+      Tile2_0: 2436689576485346197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
