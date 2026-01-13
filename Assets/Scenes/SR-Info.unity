@@ -151,17 +151,14 @@ MonoBehaviour:
   textBox: {fileID: 1285262077}
   nextButtonObject: {fileID: 258170674}
   pages:
-  - "When sunlight hits a plant, it uses a trick called\_photosynthesis. The plant
-    takes CO2 from the air and water from the soil, uses the sun\u2019s energy, and
-    makes two important things:\_oxygen (O2)\_and\_glucose\_(a kind of sugar). "
-  - "Oxygen is what people and animals need to breathe it makes about 21% of the
-    air. Glucose is the plant\u2019s food; it gives the plant energy to grow leaves,
-    roots, and flowers. "
-  - 'So sunlight, water and CO2 together let the plant make food and oxygen.
-
-    Now
-    let''s see how oxygen turns back into carbon dioxide.'
-  lettersPerSecond: 60
+  - Sunlight gives plants energy. This process is called photosynthesis. The plant
+    takes CO<sub>2</sub> from the air and water from the soil.
+  - Using sunlight, it makes oxygen (O<sub>2</sub>) and glucose. Oxygen is what people
+    and animals breathe. Glucose is plant food. It helps the plant grow leaves, roots,
+    and flowers.
+  - So sunlight, water and CO<sub>2</sub> together let the plant make oxygen. Now
+    let's see how oxygen turns back into carbon dioxide.
+  lettersPerSecond: 30
   playOnStart: 1
   nextSceneName: OD-Tutorial
 --- !u!4 &20243442
@@ -574,6 +571,7 @@ GameObject:
   - component: {fileID: 669938313}
   - component: {fileID: 669938312}
   - component: {fileID: 669938311}
+  - component: {fileID: 669938314}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -655,6 +653,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &669938314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669938310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1285262074
 GameObject:
   m_ObjectHideFlags: 0

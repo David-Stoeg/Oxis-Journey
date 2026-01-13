@@ -4,7 +4,7 @@
 
 \## About
 
-Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You guide “Oxi” through three minigames that show how plants turn CO₂ into O₂ and how animals use O₂ and release CO₂.
+Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You guide “Oxi” through three minigames that show how plants turn CO₂ into O₂ and how animals use O₂ and release CO₂. Between stages, short info screens explain the science behind what you just played.
 
 
 
@@ -35,8 +35,6 @@ Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You gu
 \- Hold the mouse button and drag up/down through the bloodstream.
 
 \- Avoid bacteria and reach the finish cell.
-
-\- No power-ups/boosts in the final version.
 
 
 

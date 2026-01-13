@@ -151,13 +151,14 @@ MonoBehaviour:
   textBox: {fileID: 1285262077}
   nextButtonObject: {fileID: 258170674}
   pages:
-  - "There is only a little CO2 in the air (about 0.04%).Plants can help lower too
-    much CO2 because they use it to grow. But plants can get hurt by things like:\_"
-  - "-not enough water or too much water\_\n-not enough sunlight\_\n-bugs and plant
-    diseases\_\n-dirty air or pollution\_"
-  - "That\u2019s why we should take care of plants and nature!\nLet's see how Flora
+  - Plants breathe too. They take in carbon dioxide (CO<sub>2</sub>), not oxygen.
+    CO<sub>2</sub> is a tiny gas. It is important for life on Earth.
+  - Plants use CO<sub>2</sub> to grow. They help reduce too much CO<sub>2</sub>.
+    But plants can be hurt. Too little or too much water is bad. No sunlight is bad.
+    Bugs, diseases, and pollution are bad too.
+  - "That\u2019s why we should take care of plants and nature! Let's see how Flora
     will transform carbon dioxide into oxygen."
-  lettersPerSecond: 60
+  lettersPerSecond: 30
   playOnStart: 1
   nextSceneName: SR-Tutorial
 --- !u!4 &20243442
