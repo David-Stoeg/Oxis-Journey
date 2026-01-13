@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1759133208296066069}
   - component: {fileID: 3584569506744157859}
-  - component: {fileID: 3386751626683968888}
   - component: {fileID: 7212086976843981595}
   - component: {fileID: 92613988950650788}
   m_Layer: 0
@@ -71,18 +70,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.02
---- !u!114 &3386751626683968888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5709140494132955524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24210ecdde15e0a478771807cd3dd6a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HemoglobinBoost
 --- !u!212 &7212086976843981595
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class PlayerOxygen : MonoBehaviour
     public float verticalLimit = 4f;
 
     [Header("Mouse Follow")]
-    public float dragSpeed = 2f;        // ✅ slower drag follow
+    public float dragSpeed = 2f;        // slower drag follow
     public float dragDeadZone = 0.1f;
 
     [Header("Sprites / Animation")]
@@ -23,6 +23,10 @@ public class PlayerOxygen : MonoBehaviour
     [Header("Damage Look")]
     public Sprite hurtSprite;
     public float hurtDuration = 0.25f;
+
+    [Header("Sprite Hold")]
+    [Tooltip("Wie lange das 'Up'/'Down' Sprite nach dem Aufhören der Bewegung gehalten wird (Sekunden)")]
+    public float holdSpriteDuration = 1f;
 
     private Rigidbody2D rb;
 
@@ -47,6 +51,13 @@ public class PlayerOxygen : MonoBehaviour
 
     // last movement direction from physics step (-1,0,+1)
     private int _moveDir = 0;
+
+    private bool _prevMouseHeld = false;
+
+    // --- added for hold-timer behaviour ---
+    private int _prevMoveDir = 0;
+    private float _holdTimer = 0f;
+    private AnimState _holdState = AnimState.Idle;
 
     void Awake()
     {
@@ -80,6 +91,20 @@ public class PlayerOxygen : MonoBehaviour
             _mouseTargetY = mouseWorld.y;
         }
 
+        // Rising edge: Maustaste wurde gerade gedrückt -> setze Animation sofort basierend auf Ziel
+        if (_mouseHeld && !_prevMouseHeld)
+        {
+            float deltaToTarget = _mouseTargetY - transform.position.y;
+            if (deltaToTarget > 0.01f && upFrames != null && upFrames.Length > 0)
+                SetAnim(AnimState.Up, upFrames);
+            else if (deltaToTarget < -0.01f && downFrames != null && downFrames.Length > 0)
+                SetAnim(AnimState.Down, downFrames);
+            else
+                SetAnim(AnimState.Idle, null);
+        }
+
+        _prevMouseHeld = _mouseHeld;
+
         if (invincibilityTimer > 0f)
             invincibilityTimer -= Time.deltaTime;
 
@@ -112,12 +137,25 @@ public class PlayerOxygen : MonoBehaviour
         if (Mathf.Abs(dy) < 0.0001f) _moveDir = 0;
         else _moveDir = (dy > 0f) ? 1 : -1;
 
+        // wenn Bewegung von non-zero -> zero wechselt, starte Hold-Timer für das vorherige AnimState
+        if (_prevMoveDir != 0 && _moveDir == 0)
+        {
+            _holdTimer = holdSpriteDuration;
+            _holdState = (_prevMoveDir > 0) ? AnimState.Up : AnimState.Down;
+        }
+
+        _prevMoveDir = _moveDir;
+
         rb.MovePosition(new Vector2(rb.position.x, newY));
     }
 
     private void UpdateSpriteAnimation(float dt)
     {
         if (spriteRenderer == null) return;
+
+        // update hold timer
+        if (_holdTimer > 0f)
+            _holdTimer -= dt;
 
         // Hurt overrides everything
         if (_hurtTimer > 0f && hurtSprite != null)
@@ -136,7 +174,22 @@ public class PlayerOxygen : MonoBehaviour
         else if (_moveDir < 0 && downFrames != null && downFrames.Length > 0)
             SetAnim(AnimState.Down, downFrames);
         else
-        {
+        {// no active movement: if hold-timer läuft, keep last up/down sprite
+            if (_holdTimer > 0f && (_holdState == AnimState.Up || _holdState == AnimState.Down))
+            {
+                if (_holdState == AnimState.Up && upFrames != null && upFrames.Length > 0)
+                {
+                    SetAnim(AnimState.Up, upFrames);
+                    AdvanceFrames(dt); // show anim frames while holding
+                    return;
+                }
+                else if (_holdState == AnimState.Down && downFrames != null && downFrames.Length > 0)
+                {
+                    SetAnim(AnimState.Down, downFrames);
+                    AdvanceFrames(dt); // show anim frames while holding
+                    return;
+                }
+            }
             _state = AnimState.Idle;
             _currentFrames = null;
             _frameIndex = 0;
@@ -145,7 +198,23 @@ public class PlayerOxygen : MonoBehaviour
             return;
         }
 
-        // advance flipbook frames
+        //// advance flipbook frames
+        //if (_currentFrames == null || _currentFrames.Length == 0) return;
+
+        //float frameTime = 1f / Mathf.Max(1f, animFps);
+        //_frameTimer += dt;
+
+        //while (_frameTimer >= frameTime)
+        //{
+        //    _frameTimer -= frameTime;
+        //    _frameIndex = (_frameIndex + 1) % _currentFrames.Length;
+        //    spriteRenderer.sprite = _currentFrames[_frameIndex];
+        //}
+    }
+
+    // Separate small helper to advance frames when SetAnim already ensured _currentFrames is correct.
+    private void AdvanceFrames(float dt)
+    {
         if (_currentFrames == null || _currentFrames.Length == 0) return;
 
         float frameTime = 1f / Mathf.Max(1f, animFps);

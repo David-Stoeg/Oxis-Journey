@@ -151,14 +151,14 @@ MonoBehaviour:
   textBox: {fileID: 1285262077}
   nextButtonObject: {fileID: 258170674}
   pages:
-  - The oxygen plants make goes into the air. People and animals breathe that oxygen
-    into their lungs. Tiny red blood cells pick up the oxygen and carry it to every
-    part of the body, like the brain and muscles, so they can work and play.
-  - 'When our cells use the oxygen, they make  carbon dioxide (CO2) as a waste gas.
-    We breathe that CO2 out and then plants can use it again. '
-  - "That\u2019s the carbon oxygen cycle: plants make O2 for us, we 'make' CO2, and
-    the cycle keeps going.\_\nGood job! Now you know everything about the CO2 cycle!"
-  lettersPerSecond: 60
+  - Plants make oxygen. The oxygen goes into the air. People and animals breathe
+    it in. Oxygen goes into the lungs. Red blood cells carry it through the body.
+    The brain and muscles need oxygen to work and play.
+  - "When the body uses oxygen, it makes carbon dioxide (CO<sub>2</sub>). We breathe
+    CO<sub>2</sub> out. Plants use CO<sub>2</sub> again. This is the carbon\u2013oxygen
+    cycle."
+  - Good job! Now you know everything about the CO<sub>2</sub> cycle!
+  lettersPerSecond: 30
   playOnStart: 1
   nextSceneName: EndScene
 --- !u!4 &20243442

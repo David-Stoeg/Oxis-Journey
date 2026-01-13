@@ -71,7 +71,10 @@ public class InfoScreenTyper : MonoBehaviour
         if (_typingRoutine != null)
             StopCoroutine(_typingRoutine);
 
-        textBox.text = "";
+        //textBox.text = "";
+        // Text sofort setzen, aber unsichtbar machen (maxVisibleCharacters = 0)
+        textBox.text = pages[index];
+        textBox.maxVisibleCharacters = 0;
         _typingRoutine = StartCoroutine(TypeText(pages[index]));
     }
 
@@ -82,11 +85,25 @@ public class InfoScreenTyper : MonoBehaviour
         if (nextButtonObject != null)
             nextButtonObject.SetActive(true);
 
+        // Wichtig: TMP muss einmal updaten, um zu wissen, wie viele "echte" Zeichen (ohne Tags) es gibt
+        textBox.ForceMeshUpdate();
+
+        int totalVisibleCharacters = textBox.textInfo.characterCount; // Zählt Tags NICHT mit
+        int counter = 0;
+
         float delay = 1f / Mathf.Max(1f, lettersPerSecond);
 
-        for (int i = 0; i < fullText.Length; i++)
+        //for (int i = 0; i < fullText.Length; i++)
+        //{
+        //    textBox.text += fullText[i];
+        //    yield return new WaitForSecondsRealtime(delay); // ✅ ignores Time.timeScale
+        //}
+
+        while (counter <= totalVisibleCharacters)
         {
-            textBox.text += fullText[i];
+            textBox.maxVisibleCharacters = counter;
+            counter++;
+
             yield return new WaitForSecondsRealtime(delay); // ✅ ignores Time.timeScale
         }
 
@@ -99,6 +116,7 @@ public class InfoScreenTyper : MonoBehaviour
             StopCoroutine(_typingRoutine);
 
         textBox.text = pages[_pageIndex];
+        textBox.maxVisibleCharacters = 99999; // Alles sichtbar machen
         _isTyping = false;
     }
 
