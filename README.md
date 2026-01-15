@@ -40,7 +40,7 @@ Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You gu
 
 \## Controls
 
-\- Mouse: drag/click (minigames 1–2), hold and drag up/down (minigame 3)
+\- Left mouse button: drag/click
 
 
 
