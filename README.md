@@ -1,52 +1,76 @@
-\# Oxi’s Journey
+Oxi’s Journey
+
+=============
 
 
 
-\## About
+Overview
 
-Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You guide “Oxi” through three minigames that show how plants turn CO₂ into O₂ and how animals use O₂ and release CO₂. Between stages, short info screens explain the science behind what you just played.
+--------
 
-
-
-\## How to Play
-
-\### 1) Feed the Plant
-
-\- Drag CO₂ onto the plant to score.
-
-\- Move pollution away.
-
-\- Mistakes cost lives. Reach the score goal to continue.
+Oxi’s Journey is a short educational game about the CO₂–O₂ cycle. You guide Oxi through three minigames that demonstrate how plants convert CO₂ into O₂, and how animals use O₂ and release CO₂.
 
 
 
-\### 2) Sunlight Rhythm
-
-\- Click when a sunray is above the plant to score.
-
-\- Do not click when pollution appears.
-
-\- Missing or wrong clicks cost lives.
+Between stages, brief info screens explain the science behind what you just played.
 
 
 
-\### 3) Oxygen Dash
+How to Play
 
-\- Hold the mouse button and drag up/down through the bloodstream.
-
-\- Avoid bacteria and reach the finish cell.
+-----------
 
 
 
-\## Controls
+1\. Feed the Plant
 
-\- Left mouse button: drag/click
+&nbsp;  - Drag CO₂ onto the plant to score points.
+
+&nbsp;  - Move pollution away from the plant.
+
+&nbsp;  - Mistakes cost lives.
+
+&nbsp;  - Reach the score goal to continue.
 
 
 
-\## Win/Lose
+2\. Sunlight Rhythm
 
-Each minigame has limited lives. Losing all lives ends the run. Finishing Oxygen Dash completes the cycle.
+&nbsp;  - Click when a sunray is above the plant to score.
+
+&nbsp;  - Don’t click when pollution appears.
+
+&nbsp;  - Missed or incorrect clicks cost lives.
+
+
+
+3\. Oxygen Dash
+
+&nbsp;  - Hold the left mouse button and drag up/down through the bloodstream.
+
+&nbsp;  - Avoid bacteria.
+
+&nbsp;  - Reach the finish cell.
+
+
+
+Controls
+
+--------
+
+\- Left mouse button: drag / click
+
+
+
+Win \& Lose Conditions
+
+--------------------
+
+\- Each minigame has a limited number of lives.
+
+\- Losing all lives ends the run.
+
+\- Finishing Oxygen Dash completes the cycle.
 
 
 
