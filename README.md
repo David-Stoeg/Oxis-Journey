@@ -24,3 +24,19 @@ A short educational game about the CO₂–O₂ cycle. Guide Oxi through three m
 
 ## Win/Lose
 Each minigame has limited lives. Losing all lives ends the run. Finishing Oxygen Dash completes the cycle.
+
+## Screenshots
+
+<p align="center">
+  <img src="Screenshots/Oxis_Journey_Screenshot_1.png" alt="Oxi's Journey Screenshot 1" width="48%"/>
+  <img src="Screenshots/Oxis_Journey_Screenshot_2.png" alt="Oxi's Journey Screenshot 2" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="Screenshots/Oxis_Journey_Screenshot_3.png" alt="Oxi's Journey Screenshot 3" width="48%"/>
+  <img src="Screenshots/Oxis_Journey_Screenshot_4.png" alt="Oxi's Journey Screenshot 4" width="48%"/>
+</p>
+
+<p align="center">
+  <img src="Screenshots/Oxis_Journey_Screenshot_5.png" alt="Oxi's Journey Screenshot 5" width="48%"/>
+</p>
